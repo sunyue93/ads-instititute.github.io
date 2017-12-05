@@ -3,7 +3,7 @@ title:       Test site
 email:       your_email@example.com
 author:      Alec GT
 description: "Trying to make a ripoff of some ML blog."
-baseurl:     ""
+baseurl:     "https://alecgt.github.io/test_blog/"
 url:         "https://alecgt.github.io/test_blog/"
 date_format: "%b %-d, %Y"
 header_pages:
