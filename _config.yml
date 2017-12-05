@@ -2,7 +2,7 @@
 title:       Test site
 email:       your_email@example.com
 author:      Alec GT
-description: "Trying to make a ripoff of some ML blog."
+description: "Trying to mimic a nice ML blog format."
 baseurl:     "/test_blog"
 url:         "https://alecgt.github.io"
 date_format: "%b %-d, %Y"
