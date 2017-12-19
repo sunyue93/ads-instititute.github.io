@@ -37,7 +37,7 @@ In this problem, there is a fixed given convex set $$K$$. In the $$k^{th}$$ iter
 \\]
 This problem can be solved by mirror descent: 
 \\[
-x^{(k+1)}=\text{argmin}_{x\in K}\eta\cdot v^{(k)\top}x^{(k)}-+D_{\Phi}(x;x^{(k)})
+x^{(k+1)}=\mathsf{argmin}_{x\in K}\eta\cdot v^{(k)\top}x^{(k)}-D_{\Phi}(x;x^{(k)})
 \\]
 where $$\eta$$ is the step size, $$\Phi$$ is some convex functions on $$K$$ called mirror map and the Bregman divergence associated to $$\Phi$$
 defined by
@@ -53,14 +53,14 @@ For me, a general wisdom, when faced a new learning problem, is to check if mirr
 Unfortunately, applying mirror descent to the $$k$$-server problem is not as easy as picking a good mirror map as I wished. Let me first describe the algorithm for the complete graphs with the metric of the form $$d(i,j)=\omega_{i}+\omega_{j}$$. For this and many other graphs, it is known how to turn a fractional solution $$x(t)\in\mathbb{R}^{n}$$ that is feasible ($$0\leq x_{i}(t)\leq1$$ and $$\sum x_{i}(t)=k$$) to an integral solution $$\widetilde{x}\in\{0,1\}^{n}$$ with the movement cost bounded by $$O(1)\cdot\int_{0}^{T}\omega_{i}\left|\frac{dx_{i}}{dt}\right|dt$$ (a natural continuous definition of movement cost). Therefore, it
 suffices to proposed a fractional algorithm (the first prerequisite for applying mirror descent).
 
-Our algorithm is motivated by the $$O(\log k)$$ competitive-algorithm by [Bansal, Buchbinder and Naor in 2007](http://www.win.tue.nl/\textasciitilde{}nikhil/pubs/pot-wt2.pdf). To make its relation to mirror descent clear, I describe our process
+Our algorithm is motivated by the $$O(\log k)$$ competitive-algorithm by [Bansal, Buchbinder and Naor in 2007](http://www.win.tue.nl/~nikhil/pubs/pot-wt2.pdf). To make its relation to mirror descent clear, I describe our process
 here as a discrete process with an infinitesimally small step size $$\eta$$. Instead of working on the fractional server $$x(t)$$, our algorithm is defined on the fractional missing server $$y(t):=1-x(t)$$:
 
 * Let $$K=\{0\leq y\leq1,\sum y_{i}=n-k\}$$.
 * Let $$\Phi(y)=\sum_{i=1}^{n}\omega_{i}(y_{i}+\frac{1}{2k})\log(y_{i}+\frac{1}{2k})$$.
 * When the request for the vertex $$\ell$$ arrives
 * - While $$y_{\ell}^{(k+1)}>0$$.
-* - + $$y^{(k+1)}=\text{argmin}_{y\in K}\eta\cdot e_{\ell}^{\top}y+D_{\Phi}(y;y^{(k)})$$ where $$e_{\ell}$$ is the coordinate vector at $$\ell$$.
+* - + $$y^{(k+1)}=\mathsf{argmin}_{y\in K}\eta\cdot e_{\ell}^{\top}y+D_{\Phi}(y;y^{(k)})$$ where $$e_{\ell}$$ is the coordinate vector at $$\ell$$.
 
 In short, when the request arrives at $$\ell$$, we run the mirror descent with the cost $$e_{\ell}$$ until all anti-mass $$y$$ leave the coordinate $$\ell$$.
 
