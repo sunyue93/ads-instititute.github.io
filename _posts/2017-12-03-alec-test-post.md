@@ -89,7 +89,8 @@ where $$r$$ is the root of the tree. The main issue of this representation is th
 
 Fixing these issues, we have a new representation
 
-\\[K:=\{y:\ y_{i,r}=1_{i>k}, \\ 
+\\[
+K:=\{y:\ y_{i,r}=1_{i>k}, \\ 
 \qquad \qquad \qquad \qquad
   \sum_{i\leq\left|S\right|}x_{u,i}\leq\sum_{(v,j)\in S}x_{v,j} \  \forall S  \}.
 \\]
