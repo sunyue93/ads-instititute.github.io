@@ -56,20 +56,20 @@ suffices to proposed a fractional algorithm (the first prerequisite for applying
 
 Our algorithm is motivated by the $$O(\log k)$$ competitive-algorithm by [Bansal, Buchbinder and Naor in 2007](http://www.win.tue.nl/\textasciitilde{}nikhil/pubs/pot-wt2.pdf). To make its relation to mirror descent clear, I describe our process
 here as a discrete process with an infinitesimally small step size $$\eta$$. Instead of working on the fractional server $$x(t)$$, our algorithm is defined on the fractional missing server $$y(t):=1-x(t)$$:
-⋅⋅* Let $$K=\{0\leq y\leq1,\sum y_{i}=n-k\}$$ and $$\Phi(y)=\sum_{i=1}^{n}\omega_{i}(y_{i}+\frac{1}{2k})\log(y_{i}+\frac{1}{2k})$$.
-⋅⋅* When the request for the vertex $$\ell$$ arrives
-⋅⋅* ⋅⋅* While $$y_{\ell}^{(k+1)}>0$$.
-⋅⋅* ⋅⋅* ⋅⋅* $$y^{(k+1)}=\text{argmin}_{y\in K}\eta\cdot e_{\ell}^{\top}y+D_{\Phi}(y;y^{(k)})$$ where $$e_{\ell}$$ is the coordinate vector at $$\ell$$.
+
+* Let $$K=\{0\leq y\leq1,\sum y_{i}=n-k\}$$ and $$\Phi(y)=\sum_{i=1}^{n}\omega_{i}(y_{i}+\frac{1}{2k})\log(y_{i}+\frac{1}{2k})$$.
+* When the request for the vertex $$\ell$$ arrives
+⋅⋅* While $$y_{\ell}^{(k+1)}>0$$.
+⋅⋅* ⋅⋅* $$y^{(k+1)}=\text{argmin}_{y\in K}\eta\cdot e_{\ell}^{\top}y+D_{\Phi}(y;y^{(k)})$$ where $$e_{\ell}$$ is the coordinate vector at $$\ell$$.
 
 In short, when the request arrives at $$\ell$$, we run the mirror descent with the cost $$e_{\ell}$$ until all anti-mass $$y$$ leave the coordinate $$\ell$$.
 
-The reason of using $$e_{\ell}$$ is to put a "cost" at coordinate $$r$$ that forces every anti-mass at $$y_{\ell}$$ leaves (equivalently, attracting fractional servers to move to $$\ell$$). Since $$K$$ is a simplex, the standard choice of the mirror map is $$\sum_{i}\omega_{i}y_{i}\log y_{i}$$. However, this mirror map is not suitable because its gradient $$(1+\log y_{i})_{i}$$
+The reason of using $$e_{\ell}$$ is to put a "cost" at coordinate $$\ell$$ that forces every anti-mass at $$y_{\ell}$$ leaves (equivalently, attracting fractional servers to move to $$\ell$$). Since $$K$$ is a simplex, the standard choice of the mirror map is $$\sum_{i}\omega_{i}y_{i}\log y_{i}$$. However, this mirror map is not suitable because its gradient $$(1+\log y_{i})_{i}$$
 blows up on the boundary. Following the idea in BBN07, we shift all variables by $$\Theta(\frac{1}{k})$$ in the mirror map.
 
 Since the step size is infinitesimally small, 
 \\[
-D_{\Phi}(y;y^{(k)}) & =(y-y^{(k)})^{\top}\nabla^{2}\Phi(y^{(k)})(y-y^{(k)})\\
- & =\sum_{i}\frac{\omega_{i}}{y_{i}^{(k)}+\frac{1}{2k}}(y-y^{(k)})^{2}.
+D_{\Phi}(y;y^{(k)}) & =(y-y^{(k)})^{\top}\nabla^{2}\Phi(y^{(k)})(y-y^{(k)}) =\sum_{i}\frac{\omega_{i}}{y_{i}^{(k)}+\frac{1}{2k}}(y-y^{(k)})^{2}.
 \\]
 Using this, one can show that the algorithm is moving the anti-mass $$y$$ from coordinate $$\ell$$ to coordinate $$j$$ with a rate proportionally to $$\frac{y_{i}^{(k)}+\frac{1}{2k}}{\omega_{i}}$$. Namely, the algorithm tends to move the server from vertices with smaller weight and less fractional server mass to the request. One can show this algorithm has a $$O(\log k)$$ competitive ratio.
 
