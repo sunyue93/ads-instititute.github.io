@@ -89,13 +89,10 @@ where $$r$$ is the root of the tree. The main issue of this representation is th
 
 Fixing these issues, we have a new representation
 
-\\[
-K:=\{y:\ y_{i,r}=1_{i>k}\text{ and }\sum_{i\leq\left|S\right|}x_{u,i}\leq\sum_{(v,j)\in S}x_{v,j}\text{ where S is a set of pairs   (v,j) with v is a child of u\}.
-\\]
-$$K:=\{y:\ y_{i,r}=1_{i>k}, \\ 
+\\[K:=\{y:\ y_{i,r}=1_{i>k}, \\ 
 \qquad \qquad \qquad \qquad
   \sum_{i\leq\left|S\right|}x_{u,i}\leq\sum_{(v,j)\in S}x_{v,j} \  \forall S  \}.
-$$
+\\]
 where $$S$$ are sets of pairs $$(v,j)$$ with $$v$$ is a child of $$u$$.
 The first constraint indicates there are only $$k$$ servers in total and the second constraint indicates that the number of servers in
 the children of a vertex $$u$$ is at most the number of server at $$u$$.
