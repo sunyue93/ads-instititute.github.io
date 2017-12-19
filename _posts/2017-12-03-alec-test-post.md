@@ -59,8 +59,8 @@ here as a discrete process with an infinitesimally small step size $$\eta$$. Ins
 
 * Let $$K=\{0\leq y\leq1,\sum y_{i}=n-k\}$$ and $$\Phi(y)=\sum_{i=1}^{n}\omega_{i}(y_{i}+\frac{1}{2k})\log(y_{i}+\frac{1}{2k})$$.
 * When the request for the vertex $$\ell$$ arrives
-⋅⋅* While $$y_{\ell}^{(k+1)}>0$$.
-⋅⋅* ⋅⋅* $$y^{(k+1)}=\text{argmin}_{y\in K}\eta\cdot e_{\ell}^{\top}y+D_{\Phi}(y;y^{(k)})$$ where $$e_{\ell}$$ is the coordinate vector at $$\ell$$.
+ * While $$y_{\ell}^{(k+1)}>0$$.
+ *  * $$y^{(k+1)}=\text{argmin}_{y\in K}\eta\cdot e_{\ell}^{\top}y+D_{\Phi}(y;y^{(k)})$$ where $$e_{\ell}$$ is the coordinate vector at $$\ell$$.
 
 In short, when the request arrives at $$\ell$$, we run the mirror descent with the cost $$e_{\ell}$$ until all anti-mass $$y$$ leave the coordinate $$\ell$$.
 
@@ -69,7 +69,7 @@ blows up on the boundary. Following the idea in BBN07, we shift all variables by
 
 Since the step size is infinitesimally small, 
 \\[
-D_{\Phi}(y;y^{(k)}) & =(y-y^{(k)})^{\top}\nabla^{2}\Phi(y^{(k)})(y-y^{(k)}) =\sum_{i}\frac{\omega_{i}}{y_{i}^{(k)}+\frac{1}{2k}}(y-y^{(k)})^{2}.
+D_{\Phi}(y;y^{(k)}) = (y-y^{(k)})^{\top}\nabla^{2}\Phi(y^{(k)})(y-y^{(k)}) =\sum_{i}\frac{\omega_{i}}{y_{i}^{(k)}+\frac{1}{2k}}(y-y^{(k)})^{2}.
 \\]
 Using this, one can show that the algorithm is moving the anti-mass $$y$$ from coordinate $$\ell$$ to coordinate $$j$$ with a rate proportionally to $$\frac{y_{i}^{(k)}+\frac{1}{2k}}{\omega_{i}}$$. Namely, the algorithm tends to move the server from vertices with smaller weight and less fractional server mass to the request. One can show this algorithm has a $$O(\log k)$$ competitive ratio.
 
@@ -77,7 +77,11 @@ Using this, one can show that the algorithm is moving the anti-mass $$y$$ from c
 
 For the $$k$$-server problem, it suffices to solve on an HST [BBNM11](https://arxiv.org/abs/1110.1580). Given a tree $$T=(V,E)$$ with vertex weights $$\omega>0$$, we define the metric on the leaf $$\mathcal{L}$$ by $$d_{\omega}(\ell,\ell')=\omega_{\text{lca}(\ell,\ell')}$$ where $$\text{lca}(\ell,\ell')$$ is the least common ancestor of $$\ell$$ and $$\ell'$$. We call this tree is a HST if $$\omega_{v}\leq\omega_{u}/6$$ whenever $$v$$ is a child of $$u$$ and we call the metric space $$(\mathcal{L},d_{\omega})$$ is a HST metric.
 
-There is two main question to be decided first. 1) How do we represent the solution? 2) What is the mirror map we use? One natural choose to represent anti-mass $$y$$ is to use
+There is two main question to be decided first.
+1. How do we represent the solution?
+2. What is the mirror map we use?
+
+One natural choose to represent anti-mass $$y$$ is to use
 \\[
 B:=\{y\in[0,1]^{V}:\ y_{r}=n-k\text{ and }y_{u}=y_{v}\text{ whenever }v\text{ is a child of }u\}
 \\]
