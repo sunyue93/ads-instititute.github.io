@@ -1,7 +1,6 @@
 ---
 layout:     post
 title:      k-server problem
-tlink:		http://www.google.com
 date:       2017-12-03 11:21:29
 summary:    Recent breakthrough of the k-server problem on HST
 categories: 
