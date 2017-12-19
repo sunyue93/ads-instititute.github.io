@@ -7,9 +7,9 @@ summary:    Recent breakthrough of the k-server problem on HST
 categories: 
 ---
 
-The $$k$$-server problem is one of the most important and most well-studied problems in the field of online algorithms. The goal of this blog is to describe the problem to you and give you some favor what are the underlying technique in the recent breakthrough by Sebastien Bubeck, Michael Cohen, James Lee, Aleksander Madry and me. For a more detailed blog with proofs, please see [here](https://blogs.princeton.edu/imabandit/2017/12/16/k-server-part-1-online-learning-and-online-algorithms/).
+The $$k$$-server problem is one of the most important and most well-studied problems in the field of online algorithms. The goal of this blog is to describe the problem to you and give you some favor what are the underlying technique used in the recent breakthrough by [Sebastien Bubeck, Michael Cohen, James Lee, Aleksander Madry and me](https://arxiv.org/abs/1711.01085). For a detailed blog with proofs, please see [here](https://blogs.princeton.edu/imabandit/2017/12/16/k-server-part-1-online-learning-and-online-algorithms/).
 
-# Background
+## Background
 
 In this problem, we control the movement of a set of $$k$$ servers on a fixed metric space of $$n$$ vertices. In each iteration, we are
 given a request $$r$$ and if there is no server at that location, we must choose a server, move it to that location and pay the movement cost this server. Our goal is to minimize the total distances all servers move. This problem is very general and is originally proposed to model problems related to cache management. We call an algorithm is $$f(k,n)$$-competitive if for any request sequence, its total movement is at most $$f(k,n)\cdot\text{OPT}$$ where $$\text{OPT}$$ is the optimal movement cost if the whole request sequence is given in the beginning. A priori it is unclear that any competitive algorithm exists because we are comparing against an algorithm that knows the whole request sequence and is free to make any moves.
