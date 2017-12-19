@@ -26,3 +26,26 @@ One main focus for the $$k$$-server problem is to achieve competitive ratio inde
 
 The previous best competitive ratio is $$O(\log^{3}(n)\log^{2}(k))$$ (by [Bansal, Buchbinder, Naor and Madry in 2011](https://arxiv.org/abs/1110.1580v1)). In our paper, we give an algorithm with competitive ratio $$O(\log^{2}(k))$$ on hierarchically separated trees (HST, a much larger classes of graphs) and $$O(\log^{2}(k)\log(n))$$ on general graph. Soon after our paper,
 James Lee, our coauthor, developed upon our paper and gave an algorithm with competitive ratio $$O(\log^{6}(k))$$, finally resolving the weak randomized $$k$$-server conjecture!
+
+
+## Online Learning and Mirror Descent
+
+Our algorithm is based on mirror descent with a multiscale entropy. So, let me describe an online learning problem and the mirror descent algorithm for it. 
+
+In this problem, there is a fixed given convex set $$K$$. In the $$k^{th}$$ iteration, we select a vector $$x^{(k)}\in K$$, then the adversary select a vector $$v^{(k)}$$ on $$K$$ and we receive a loss $$v^{(k)\top}x^{(k)}$$ for that iteration. Our goal is to minimize the regret (the difference between your loss and the loss of the optimal fixed strategy)
+\\[
+\sum_{k=1}^{T}v^{(k)\top}x^{(k)}-\min_{x\in K}\sum_{k=1}^{T}v^{(k)\top}x.
+\\]
+This problem can be solved by mirror descent: 
+\\[
+x^{(k+1)}=\text{argmin}_{x\in K}\eta\cdot v^{(k)\top}x^{(k)}-+D_{\Phi}(x;x^{(k)})
+\\]
+where $$\eta$$ is the step size, $$\Phi$$ is some convex functions on $$K$$ called mirror map and the Bregman divergence associated to $$\Phi$$
+defined by
+\\[
+D_{\Phi}(y;x):=\Phi(y)-\Phi(x)-\nabla\Phi(x)^{\top}(y-x).
+\\]
+When $$x$$ is very close to $$y$$, $$D_{\Phi}(y;x)\sim(y-x)^{\top}\nabla^{2}\Phi(x)(y-x)$$ and hence mirror descent is simply moving $$x$$ towards $$-v$$ direction while making sure the point is in $$K$$ and it is not too far from the previous point in $$\nabla^{2}\Phi(x)$$ norm.
+
+For me, a general wisdom, when faced a new learning problem, is to check if mirror descent or some of its variant is good. See my favorite example [here](https://arxiv.org/abs/1607.03084).
+
