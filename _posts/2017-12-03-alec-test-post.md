@@ -88,8 +88,9 @@ B:=\{y\in[0,1]^{V}:\ y_{r}=n-k\text{ and }y_{u}=y_{v}\text{ whenever }v\text{ is
 where $$r$$ is the root of the tree. The main issue of this representation is that it cannot distinguish between the case we need exactly 1 server in that subtree or we need 2 servers with 50% probability. Another small issue is that some constraint is never active. Using the fact that the algorithm always moving servers to the request in one dimension until $$y_{\ell}=0$$, one can show that $$1\geq y\geq0$$ and $$y_{u}\geq y_{v}$$ are never active.
 
 Fixing these issues, we have a new representation
+
 \\[
-K:=\{y:\ y_{i,r}=1_{i>k}\text{ and }\sum_{i\leq\left|S\right|}x_{u,i}\leq\sum_{(v,j)\in S}x_{v,j}\text{ where }S\text{ is a set of pairs }(v,j)\text{ with }v\text{ is a child of }u\}.
+K:=\{y:\ y_{i,r}=1_{i>k}\text{ and }\sum_{i\leq\left|S\right|}x_{u,i}\leq\sum_{(v,j)\in S}x_{v,j}\text{ where S is a set of pairs   (v,j) with v is a child of u\}.
 \\]
 The first constraint indicates there are only $$k$$ servers in total and the second constraint indicates that the number of servers in
 the children of a vertex $$u$$ is at most the number of server at $$u$$.
