@@ -73,3 +73,34 @@ D_{\Phi}(y;y^{(k)}) & =(y-y^{(k)})^{\top}\nabla^{2}\Phi(y^{(k)})(y-y^{(k)}) =\su
 \\]
 Using this, one can show that the algorithm is moving the anti-mass $$y$$ from coordinate $$\ell$$ to coordinate $$j$$ with a rate proportionally to $$\frac{y_{i}^{(k)}+\frac{1}{2k}}{\omega_{i}}$$. Namely, the algorithm tends to move the server from vertices with smaller weight and less fractional server mass to the request. One can show this algorithm has a $$O(\log k)$$ competitive ratio.
 
+## Hierarchically Separated Tree
+
+For the $$k$$-server problem, it suffices to solve on an HST [BBNM11](https://arxiv.org/abs/1110.1580). Given a tree $$T=(V,E)$$ with vertex weights $$\omega>0$$, we define the metric on the leaf $$\mathcal{L}$$ by $$d_{\omega}(\ell,\ell')=\omega_{\text{lca}(\ell,\ell')}$$ where $$\text{lca}(\ell,\ell')$$ is the least common ancestor of $$\ell$$ and $$\ell'$$. We call this tree is a HST if $$\omega_{v}\leq\omega_{u}/6$$ whenever $$v$$ is a child of $$u$$ and we call the metric space $$(\mathcal{L},d_{\omega})$$ is a HST metric.
+
+There is two main question to be decided first. 1) How do we represent the solution? 2) What is the mirror map we use? One natural choose to represent anti-mass $$y$$ is to use
+\\[
+B:=\{y\in[0,1]^{V}:\ y_{r}=n-k\text{ and }y_{u}=y_{v}\text{ whenever }v\text{ is a child of }u\}
+\\]
+where $$r$$ is the root of the tree. The main issue of this representation is that it cannot distinguish between the case we need exactly 1 server in that subtree or we need 2 servers with 50% probability. Another small issue is that some constraint is never active. Using the fact that the algorithm always moving servers to the request in one dimension until $$y_{\ell}=0$$, one can show that $$1\geq y\geq0$$ and $$y_{u}\geq y_{v}$$ are never active.
+
+Fixing these issues, we have a new representation
+\\[
+K:=\{y:\ y_{i,r}=1_{i>k}\text{ and }\sum_{i\leq\left|S\right|}x_{u,i}\leq\sum_{(v,j)\in S}x_{v,j}\text{ where }S\text{ is a set of pairs }(v,j)\text{ with }v\text{ is a child of }u\}.
+\\]
+The first constraint indicates there are only $$k$$ servers in total and the second constraint indicates that the number of servers in
+the children of a vertex $$u$$ is at most the number of server at $$u$$.
+
+The mirror map we pick is simply the generalization of the mirror map on simplex
+\\[
+\Phi(x):=\sum_{u\in V}\omega_{u}\sum_{i\geq1}(y_{u,i}+\delta)\log(y_{u,i}+\delta)
+\\]
+where the shift $$\delta=\frac{1}{2017k}$$.
+
+Except for some technical issue, our algorithm for HST is same as the algorithm described for the complete graph except using this new
+$$K$$ and mirror map $$\Phi$$.
+
+## Open Problems
+
+The proof of the classical mirror descent is clean, short and optimal. Unfortunately, our proof is slightly longer (i.e. few pages) and the bound we get for HST does not sound optimal. We hope to get the ultimate algorithm for $$k$$-server at least for HST, however, our algorithm seems not the one from the BOOK. So, what is the algorithm from the BOOK for the $$k$$-server problem for HST?
+
+On the other hand, it is interesting to see if HST is necessary for getting an $$\log^{O(1)}k$$-competitive algorithm for general graph. This problem is even open for a path. Or HST is the right tool and that I am too naive on this?
