@@ -90,7 +90,7 @@ where $$r$$ is the root of the tree. The main issue of this representation is th
 Fixing these issues, we have a new representation
 
 \\[
-K:=\\{y:\ y_{i,r}=1\_{i>k}, \\ \qquad \qquad \qquad \qquad \sum_{i\leq\left|S\right|}x\_{u,i}\leq\sum\_{(v,j)\in S}x_{v,j} \  \forall S  \\}.
+K:=\\{y:\ y_{i,r}=1\_{i>k}, \\\\ \qquad \qquad \qquad \qquad \sum_{i\leq\left|S\right|}x\_{u,i}\leq\sum\_{(v,j)\in S}x_{v,j} \  \forall S  \\}.
 \\]
 where $$S$$ are sets of pairs $$(v,j)$$ with $$v$$ is a child of $$u$$.
 The first constraint indicates there are only $$k$$ servers in total and the second constraint indicates that the number of servers in
