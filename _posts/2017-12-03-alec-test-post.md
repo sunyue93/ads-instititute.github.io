@@ -6,6 +6,12 @@ summary:    Recent breakthrough of the k-server problem on HST
 categories: 
 ---
 
+\\[
+K:=\{y:\ y_{i,r}=1_{i>k}, \\ 
+\qquad \qquad \qquad \qquad
+  \sum_{i\leq\left|S\right|}x_{u,i}\leq\sum_{(v,j)\in S}x_{v,j} \  \forall S  \}.
+\\]
+
 The $$k$$-server problem is one of the most important and most well-studied problems in the field of online algorithms. The goal of this blog is to describe the problem to you and give you some favor what are the underlying technique used in the recent breakthrough by [Sebastien Bubeck, Michael Cohen, James Lee, Aleksander Madry and me](https://arxiv.org/abs/1711.01085). For a detailed blog with proofs, please see [here](https://blogs.princeton.edu/imabandit/2017/12/16/k-server-part-1-online-learning-and-online-algorithms/).
 
 ## Background
