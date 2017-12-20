@@ -1,0 +1,45 @@
+---
+layout: page
+title: Selected Publications
+permalink: /publications.html
+---
+<style>
+.pub a {
+    text-decoration: none!important;
+    background-image: none!important;
+}
+</style>
+
+<div class="pub">
+<div class="center">
+	<h2>Selected Publications of ADSI</h2>
+</div>
+
+{% for year in site.data.publications %}
+{% if year.papers.size > 0 %}
+    <h3>{{ year.year }}</h3>
+    {% for entry in year.papers %}
+
+        {% if entry.url %}
+        <a href="{{ entry.url }}">{{ entry.title }}</a>.
+        {% else %}
+        {{ entry.title }}.
+        {% endif %}
+        <br>
+        {{ entry.author }}.
+        <br>
+        {{ entry.journal }}.
+        {% if entry.code %}
+        <a href="{{ entry.code }}">[Code]</a>
+        {% endif %}
+        {% if entry.blog %}
+        <a href="{{ entry.blog }}">[Blog]</a>
+        {% endif %}
+        {% if entry.highlight %}
+        <br><b>{{ entry.highlight }}</b><br><br>
+        {% endif %}
+
+    {% endfor %}
+{% endif %}
+{% endfor %}
+</div>

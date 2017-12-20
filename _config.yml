@@ -9,7 +9,7 @@ date_format: "%b %-d, %Y"
 header_pages:
  - about.md
  - members.html
- - publications.md
+ - publications.html
 
 # Google services
 google_verification:
@@ -126,22 +126,9 @@ sass:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
-gem:
-  - jekyll/scholar
   
 category_dir: "post"
 category_layout: "index.html"
-
-# Jekyll Scholar Bibtex Formatting
-scholar:
-  style: apa
-  locale: en
-  source: ./_data
-  bibliography: publications.bib
-  bibliography_template: bib
-  use_raw_bibtex_entry: true
-  query: "@*"
-
   
 # https://github.com/jekyll/jekyll/issues/2938
 exclude:

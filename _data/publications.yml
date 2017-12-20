@@ -1,0 +1,29 @@
+- year: 2018
+
+- year: 2017
+  papers:
+    - author: Sbastien Bubeck, Michael B. Cohen, James R. Lee, Yin Tat Lee, Aleksander Madry
+      title: k-server via multiscale entropic regularization
+      journal: arXiv abs/1711.01085
+      url: http://arxiv.org/abs/1711.01085
+      blog: ./2017/12/20/kserver
+      highlight: A breakthough in the k-server problem. The first o(k)-competitive algorithm for hierarchically separated trees.
+      
+    - author: Sbastien Bubeck, Michael B. Cohen, Yin Tat Lee, Yuanzhi Li
+      title: An homotopy method for lp regression provably beyond self-concordance and in input-sparsity time
+      journal: arXiv abs/1711.01328
+      url: http://arxiv.org/abs/1711.01328
+      highlight: Solving two open problems about lp ball, the simplest object in convex optimization. First is the existence of input sparsity time algorithm for lp regression, second is the inexistence of good self-concordance barrier. The later question has been open since the invention of self-concordance theory.
+      
+    - author: Yin Tat Lee, Santosh S. Vempala
+      title: Convergence Rate of Riemannian Hamiltonian Monte Carlo and Faster Polytope Volume Computation
+      journal: arXiv abs/1710.06261
+      url: http://arxiv.org/abs/1710.06261
+      highlight: A quadratic improvement of polytope volume computation!
+      
+    - author: Tsz Chiu Kwok, Lap Chi Lau, Yin Tat Lee, Akshay Ramachandran
+      title: The Paulsen Problem, Continuous Operator Scaling, and Smoothed Analysis
+      journal: arXiv abs/1710.02587
+      url: http://arxiv.org/abs/1710.02587
+      highlight: Resolving the Paulsen problem - a basic open problem in frame theory with applications from signal processing, communication theory and theoretical computer science.
+
