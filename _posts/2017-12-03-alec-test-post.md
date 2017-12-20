@@ -20,7 +20,7 @@ $$
 
 Since $$a_{i}$$ and $$b$$ are so far away, the optimal strategy for this sequence is to put a server on $$a_{i}$$ and a server on $$b$$. However, if $$b$$ appears less frequent than once per $$2017$$ iterations, a better strategy would put both servers on $$a_{i}$$ most of the time. Therefore, any memoryless algorithm is not competitive and that we indeed need to learn something. 
 
-One main focus for the $$k$$-server problem is to achieve competitive ratio independent of $$n$$ because of the common case $$k\ll n$$. Two of the major open problems is to find (a $$k$$-competitive deterministic algorithm)[https://en.wikipedia.org/wiki/K-server_problem] and a $$O(\log k)$$-competitive randomized algorithm for the $$k$$-server problem. For the deterministic problem, [Koutsoupias and Papadimitriou](https://doi.org/10.1145/210118.210128) gave a deterministic algorithm achieves a competitive ratio of $$2k-1$$ on any metric space. However, there is not too many progress on the randomize problem. In particular, there is no any $$o(k)$$ competitive algorithm except for very basic classes of graphs such as weighted complete graphs. Due to its importance and the gap between the lower and upper bound, the following "easier" problem had been a major target of the field. And in my opinion, this was the most important conjecture in online algorithms.
+One main focus for the $$k$$-server problem is to achieve competitive ratio independent of $$n$$ because of the common case $$k\ll n$$. Two of the major open problems is to find [a $$k$$-competitive deterministic algorithm](https://en.wikipedia.org/wiki/K-server_problem) and a $$O(\log k)$$-competitive randomized algorithm for the $$k$$-server problem. For the deterministic problem, [Koutsoupias and Papadimitriou](https://doi.org/10.1145/210118.210128) gave a deterministic algorithm achieves a competitive ratio of $$2k-1$$ on any metric space. However, there is not too many progress on the randomize problem. In particular, there is no any $$o(k)$$ competitive algorithm except for very basic classes of graphs such as weighted complete graphs. Due to its importance and the gap between the lower and upper bound, the following "easier" problem had been a major target of the field. And in my opinion, this was the most important conjecture in online algorithms.
 
 > **(Weak randomized $$k$$-server conjecture)** There is a randomized algorithm for the $$k$$-server problem on any graph with competitive ratio $$\log^{O(1)}(k)$$.
 
@@ -57,7 +57,11 @@ For me, a general wisdom, when faced a new learning problem, is to check if mirr
 
 ## Weighted Complete Graph
 
-Unfortunately, applying mirror descent to the $$k$$-server problem is not as easy as picking a good mirror map as I wished. Let me first describe the algorithm for the complete graphs with the metric of the form $$d(i,j)=\omega_{i}+\omega_{j}$$. For this and many other graphs, it is known how to turn a fractional solution $$x(t)\in\mathbb{R}^{n}$$ that is feasible ($$0\leq x_{i}(t)\leq1$$ and $$\sum x_{i}(t)=k$$) to an integral solution $$\widetilde{x}\in\{0,1\}^{n}$$ with the movement cost bounded by $$O(1)\cdot\int_{0}^{T}\omega_{i}\left|\frac{dx_{i}}{dt}\right|dt$$ (a natural continuous definition of movement cost). Therefore, it
+Unfortunately, applying mirror descent to the $$k$$-server problem is not as easy as picking a good mirror map as I wished. Let me first describe the algorithm for the complete graphs with the metric of the form $$d(i,j)=\omega_{i}+\omega_{j}$$. For this and many other graphs, it is known how to turn a fractional solution $$x(t)\in\mathbb{R}^{n}$$ that is feasible
+
+$$0\leq x_{i}(t)\leq1$$ and $$\sum x_{i}(t)=k$$
+
+to an integral solution $$\widetilde{x}\in\{0,1\}^{n}$$ with the movement cost bounded by $$O(1)\cdot\int_{0}^{T}\omega_{i}\left|\frac{dx_{i}}{dt}\right|dt$$ (a natural continuous definition of movement cost). Therefore, it
 suffices to proposed a fractional algorithm (the first prerequisite for applying mirror descent).
 
 Our algorithm is motivated by the $$O(\log k)$$ competitive-algorithm by [Bansal, Buchbinder and Naor in 2007](http://www.win.tue.nl/~nikhil/pubs/pot-wt2.pdf). To make its relation to mirror descent clear, I describe our process
