@@ -39,11 +39,11 @@ In this problem, there is a fixed given convex set $$K$$. In the $$k^{th}$$ iter
 \sum_{k=1}^{T}v^{(k)\top}x^{(k)}-\min_{x\in K}\sum_{k=1}^{T}v^{(k)\top}x.
 \\]
 This problem can be solved by mirror descent: 
-
+^
 $$
 x^{(k+1)}=\mathsf{argmin}_{x\in K}\eta\cdot v^{(k)\top}x^{(k)}+D_{\Phi}(x;x^{(k)})
 $$
-
+^
 where $$\eta$$ is the step size, $$\Phi$$ is some convex functions on $$K$$ called mirror map and the Bregman divergence associated to $$\Phi$$
 defined by
 \\[
