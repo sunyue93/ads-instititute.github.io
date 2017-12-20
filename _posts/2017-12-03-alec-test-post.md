@@ -119,19 +119,18 @@ where $$S$$ are sets of pairs $$(v,j)$$ with $$v$$ is a child of $$u$$.
 The first set of constraints ensure there are only $$k$$ servers in total and the second set of constraints ensure that the number of servers in
 the children of a vertex $$u$$ is at most the number of server at $$u$$.
 
-The mirror map we pick is simply the generalization of the mirror map on simplex
+The mirror map we pick is a generalization of the mirror map on simplex
 
 $$
-\Phi(x):=\sum_{u\in V}\omega_{u}\sum_{i\geq1}(y_{u,i}+\delta)\log(y_{u,i}+\delta)
+\Phi(y):=\sum_{u\in V}\omega_{u}\sum_{i\geq1}(y_{u,i}+\delta)\log(y_{u,i}+\delta)
 $$
 
 where the shift $$\delta=\frac{1}{2017k}$$.
 
-Except for some technical issue, our algorithm for HST is same as the algorithm described for the complete graph except using this new
-$$K$$ and mirror map $$\Phi$$.
+Except for some technical issues, our algorithm for HST is same as the algorithm described for the complete graph except this new $$K$$ and mirror map $$\Phi$$.
 
 ## Open Problems
 
-The proof of the classical mirror descent is clean, short and optimal. Unfortunately, our proof is slightly longer (i.e. few pages) and the bound we get for HST does not sound optimal. We hope to get the ultimate algorithm for $$k$$-server at least for HST, however, our algorithm seems not the one from the BOOK. So, what is the algorithm from the BOOK for the $$k$$-server problem for HST?
+The proof of the classical mirror descent is clean, short and optimal. Unfortunately, our proof is slightly longer (i.e. few pages) and the bound we get for HST does not sound optimal. We hoped to get the ultimate algorithm for $$k$$-server at least for HST, however, our algorithm seems not the one from the BOOK. So, what is the algorithm from the BOOK for the $$k$$-server problem (at least for HST)?
 
-On the other hand, it is interesting to see if HST is necessary for getting an $$\log^{O(1)}k$$-competitive algorithm for general graph. This problem is even open for a path. Or HST is the right tool and that I am too naive on this?
+On the other hand, it is interesting to see if HST is necessary for an $$\log^{O(1)}k$$-competitive algorithm on general graphs (or for a path). Maybe I am too naive on this and HST is indeed the right tool?
