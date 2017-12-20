@@ -9,8 +9,10 @@ date_format: "%b %-d, %Y"
 header_pages:
  - about.md
  - members.html
+ - news.html
  - publications.html
-
+ - seminars.md
+ 
 # Google services
 google_verification:
 # Use either direct GA implementation or set up GTM account

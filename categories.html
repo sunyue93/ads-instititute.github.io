@@ -1,0 +1,51 @@
+---
+layout: page
+title: Categories
+permalink: categories.html
+---
+<style>
+.tags-list a {
+    text-decoration: none!important;
+    background-image: none!important;
+}
+</style>
+
+<div>
+    <div class="tags-list">
+        {% for tag in site.categories %}
+            <a href="#{{ tag[0] }}">📌 {{ tag[0] }}</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        {% endfor %}
+    </div>
+    <hr/>
+    {% for tag in site.categories %}
+    {% assign posts_count = tag[1] | size %}
+    <h2 id="{{ tag[0] }}">{{ tag[0] }}</h2>
+    {% if posts_count < 5 %}
+        <div class="posts">
+          {% for post in tag[1] %}
+            <div class="post py3">
+              <a href="{{ post.url | prepend: site.baseurl }}" style="text-decoration: none" class="post-link">{{ post.title }}</a>
+              <p class="post-meta">{{ post.date | date: site.date_format }}</p>
+              <span class="post-summary">
+                {% if post.summary %}
+                  {{ post.summary }}
+                {% else %}
+                  {{ post.excerpt }}
+                {% endif %}
+              </span>
+            </div>
+          {% endfor %}
+        </div>
+    {% else %}
+        <ul>
+            {% for post in tag[1] %}
+            <a href="{{ site.baseurl }}{{ post.url }}">
+                <li>{{ post.title }} <small>{{ post.date | date_to_string }}</small></li>
+            </a>
+            {% endfor %}
+        </ul>
+    {% endif %}
+    {% endfor %}
+</div>
+
+

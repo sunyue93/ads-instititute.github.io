@@ -13,7 +13,7 @@
       title: An homotopy method for lp regression provably beyond self-concordance and in input-sparsity time
       journal: arXiv abs/1711.01328
       url: http://arxiv.org/abs/1711.01328
-      highlight: Solving two open problems about lp ball, the simplest object in convex optimization. First is the existence of input sparsity time algorithm for lp regression, second is the inexistence of good self-concordance barrier. The later question has been open since the invention of self-concordance theory.
+      highlight: Solving two long open problems about lp ball&#58; <br> 1. The existence of input sparsity time algorithm for lp regression. <br> 2. The inexistence of good self-concordance barrier.
       
     - author: Yin Tat Lee, Santosh S. Vempala
       title: Convergence Rate of Riemannian Hamiltonian Monte Carlo and Faster Polytope Volume Computation
