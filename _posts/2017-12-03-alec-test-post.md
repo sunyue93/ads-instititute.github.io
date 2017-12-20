@@ -62,7 +62,7 @@ For me, a general wisdom, when faced a new learning problem, is to check if mirr
 Unfortunately, applying mirror descent to the $$k$$-server problem is not as easy as picking a good mirror map as I wished. Let me first describe the algorithm for the complete graphs with the metric of the form $$d(i,j)=\omega_{i}+\omega_{j}$$. For this and many other graphs, it is known how to turn a fractional solution $$x(t)\in\mathbb{R}^{n}$$ that is feasible
 
 $$
-0\leq x_{i}(t)\leq1$$ and $$\sum x_{i}(t)=k
+0\leq x_{i}(t)\leq1 \text{ and } \sum x_{i}(t)=k
 $$
 
 to an integral solution $$\widetilde{x}\in\{0,1\}^{n}$$ with the movement cost bounded by $$O(1)\cdot\int_{0}^{T}\omega_{i}\left|\frac{dx_{i}}{dt}\right|dt$$ (a natural continuous definition of movement cost). Therefore, it
@@ -76,7 +76,7 @@ here as a discrete process with an infinitesimally small step size $$\eta$$. Ins
 * When the request for the vertex $$\ell$$ arrives
     * While $$y_{\ell}^{(k)}>0$$.
         * $$y^{(k+1)}=\text{argmin}_{y\in K}\eta\cdot e_{\ell}^{\top}y+D_{\Phi}(y;y^{(k)})$$ where $$e_{\ell}$$ is the coordinate vector at $$\ell$$.
-        * $$k \leftarrow k+1$$
+        * $$k \leftarrow k+1$$.
 
 In short, when the request arrives at $$\ell$$, we run the mirror descent with the cost $$e_{\ell}$$ until all anti-mass $$y$$ leave the coordinate $$\ell$$.
 
@@ -105,7 +105,7 @@ $$
 B:=\{y\in[0,1]^{V}:\ y_{r}=n-k\text{ and } y_{u}=\sum_{p(v)=u}y_{v}\}
 $$
 
-where $$r$$ is the root of the tree and $$p(v)$ is the parent of $$v$$. The main issue of this representation is that it cannot distinguish between the case we need exactly 1 server in a subtree or we need 2 servers with 50% probability. Another small issue is that some constraint is never active. Using the fact that the algorithm always moving servers to the request until $$y_{\ell}=0$$, one can show that $$1\geq y\geq0$$ and $$y_{u} \geq \sum_{p(v)=u}y_{v}$$ are never active.
+where $$r$$ is the root of the tree and $$p(v)$$ is the parent of $$v$$. The main issue of this representation is that it cannot distinguish between the case we need exactly 1 server in a subtree or we need 2 servers with 50% probability. Another small issue is that some constraint is never active. Using the fact that the algorithm always moving servers to the request until $$y_{\ell}=0$$, one can show that $$1\geq y\geq0$$ and $$y_{u} \geq \sum_{p(v)=u}y_{v}$$ are never active.
 
 Fixing these issues, we have a new representation
 
