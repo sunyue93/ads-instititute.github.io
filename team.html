@@ -15,7 +15,6 @@ tags: contact
 			<h3>{{ group.group_name }}</h3>
 		</div>
         {% assign members = group.members | sort: 'last_name' %}
-        <div id="team-row-wrap">
         {% for member in members %}
             <div class="col-4">
                 <img src="{{ member.pic }}" alt="{{ member.first_name }}" width=200 height=200>
@@ -23,7 +22,6 @@ tags: contact
                 {{ member.interest }}
             </div>
         {% endfor %}
-        </div>
     {% endif %}
     {% endfor %}
 </div>
