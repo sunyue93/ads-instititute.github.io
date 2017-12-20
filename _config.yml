@@ -1,5 +1,5 @@
 # Site settings
-title:       Test site
+title:       UW Institute on the Algorithmic Foundations of Data Science
 email:       your_email@example.com
 author:      Alec GT
 description: "Trying to mimic a nice ML blog format."
@@ -8,7 +8,8 @@ url:         "https://yintat.github.io"
 date_format: "%b %-d, %Y"
 header_pages:
  - about.md
- - team.html
+ - members.html
+ - publications.md
 
 # Google services
 google_verification:
@@ -119,12 +120,29 @@ markdown:     kramdown
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
 permalink:    pretty
-paginate:     4
+paginate:     5
 sass:
   style: compressed
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+gem:
+  - jekyll/scholar
+  
+category_dir: "post"
+category_layout: "index.html"
+
+# Jekyll Scholar Bibtex Formatting
+scholar:
+  style: apa
+  locale: en
+  source: ./_data
+  bibliography: publications.bib
+  bibliography_template: bib
+  use_raw_bibtex_entry: true
+  query: "@*"
+
+  
 # https://github.com/jekyll/jekyll/issues/2938
 exclude:
   - Gemfile

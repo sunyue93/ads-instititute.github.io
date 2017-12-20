@@ -1,13 +1,12 @@
 ---
 layout: page
-title: Team
-permalink: /team/
-tags: contact
+title: Members
+permalink: /members.html
 ---
 
 <div class="flex flex-wrap">
     <div class="col-12 center">
-        <h2>Our Amazing Team</h2>
+        <h2>Members of ADSI</h2>
     </div>
     {% for group in site.data.people %}
     {% if group.members.size > 0 %}
@@ -17,7 +16,7 @@ tags: contact
         {% assign members = group.members | sort: 'last_name' %}
         {% for member in members %}
             <div class="col-4">
-                <img src="{{ member.pic }}" alt="{{ member.first_name }}" width=200 height=200><br>
+                <img src="members/{{ member.pic }}" alt="{{ member.first_name }}" width=200 height=200><br>
                 <a href="{{ member.url }}">{{ member.first_name }} {{ member.last_name }}</a><br>
 		{{ member.interest }}<br><br>
             </div>

@@ -1,0 +1,32 @@
+---
+---
+
+{% if entry.url %}
+<u><a href="{{ entry.url }}">{{ entry.title }}</a></u>.
+{% else %}
+<u>{{ entry.title }}</u>.
+{% endif %}
+
+<br>
+
+{{ entry.author_0_first }}  {{ entry.author_0_last }}{% if entry.author_1_first %}, {{ entry.author_1_first }}  {{ entry.author_1_last }}{% endif %}{% if entry.author_2_first %}, {{ entry.author_2_first }}  {{ entry.author_2_last }}{% endif %}{% if entry.author_3_first %}, {{ entry.author_3_first }}  {{ entry.author_3_last }}{% endif %}{% if entry.author_4_first %}, {{ entry.author_4_first }}  {{ entry.author_4_last }}{% endif %}{% if entry.author_5_first %}, {{ entry.author_5_first }}  {{ entry.author_5_last }}{% endif %}{% if entry.author_6_first %}, {{ entry.author_6_first }}  {{ entry.author_6_last }}{% endif %}{% if entry.author_7_first %}, et al{% endif %}.
+
+{% if entry.booktitle %}
+<i>{{ entry.booktitle }}</i>.
+{% elsif entry.journal %}
+<i>{{ entry.journal }} {{ entry.archiveprefix }} {{ entry.eprint }}</i>.
+{% endif %}
+
+{{ entry.year }}.
+
+{% if entry.code %}
+<a href="{{ entry.code }}">[Code]</a>
+{% endif %}
+
+{% if entry.blog %}
+<a href="{{ entry.blog }}">[Blog]</a>
+{% endif %}
+
+{% if entry.highlight %}
+<br><b>{{ entry.highlight }}</b><br><br>
+{% endif %}
