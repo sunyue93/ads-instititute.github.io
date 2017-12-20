@@ -31,69 +31,25 @@
       interest: Convex Optimization
       url: http://yintat.com
 
+- group_name: Affiliates
+  members:
+    - first_name: Sébastien
+      last_name: Bubeck
+      pic: Sebastien.jpg
+      interest: Convex Optimization
+      url: http://sbubeck.com/
+      
+    - first_name: Zeyuan
+      last_name: Allen-Zhu
+      pic: Zeyuan.jpg
+      interest: Convex Optimization
+      url: http://people.csail.mit.edu/zeyuan/
+      
 - group_name: Postdocs
   members:
-    - first_name: Dmitriy
-      last_name: Drusvyatskiy
-      pic: Dmitriy.jpg
-      interest: Convex Optimization
-      url: http://sites.math.washington.edu/~ddrusv/
-      
-    - first_name: Maryam
-      last_name: Fazel
-      pic: Maryam.jpg
-      interest: Convex Optimization
-      url: https://faculty.washington.edu/mfazel/
-      
-    - first_name: Zaid
-      last_name: Harchaoui
-      pic: Zaid.jpg
-      interest: Convex Optimization
-      url: http://faculty.washington.edu/zaid/
-      
-    - first_name: Sham
-      last_name: Kakade
-      pic: Sham.jpg
-      interest: Convex Optimization
-      url: https://homes.cs.washington.edu/~sham/
-
-    - first_name: Yin Tat
-      last_name: Lee
-      pic: YinTat.jpg
-      interest: Convex Optimization
-      url: http://yintat.com
 
 - group_name: Graduate Students
   members:
-    - first_name: Dmitriy
-      last_name: Drusvyatskiy
-      pic: Dmitriy.jpg
-      interest: Convex Optimization
-      url: http://sites.math.washington.edu/~ddrusv/
-      
-    - first_name: Maryam
-      last_name: Fazel
-      pic: Maryam.jpg
-      interest: Convex Optimization
-      url: https://faculty.washington.edu/mfazel/
-      
-    - first_name: Zaid
-      last_name: Harchaoui
-      pic: Zaid.jpg
-      interest: Convex Optimization
-      url: http://faculty.washington.edu/zaid/
-      
-    - first_name: Sham
-      last_name: Kakade
-      pic: Sham.jpg
-      interest: Convex Optimization
-      url: https://homes.cs.washington.edu/~sham/
-
-    - first_name: Yin Tat
-      last_name: Lee
-      pic: YinTat.jpg
-      interest: Convex Optimization
-      url: http://yintat.com
       
 - group_name: Undergraduate Students
   members:
