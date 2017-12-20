@@ -1,9 +1,9 @@
 # Team names, titles and social links
 - group_name: Faculty
   members:
-    - first_name: Dmitry
+    - first_name: Dmitriy
       last_name: Drusvyatskiy
-      pic: Dmitry.jpg
+      pic: Dmitriy.jpg
       interest: Convex Optimization
       url: http://sites.math.washington.edu/~ddrusv/
       
