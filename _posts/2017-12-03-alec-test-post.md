@@ -67,11 +67,11 @@ suffices to proposed a fractional algorithm (the first prerequisite for applying
 Our algorithm is motivated by the $$O(\log k)$$ competitive-algorithm by [Bansal, Buchbinder and Naor in 2007](http://www.win.tue.nl/~nikhil/pubs/pot-wt2.pdf). To make its relation to mirror descent clear, I describe our process
 here as a discrete process with an infinitesimally small step size $$\eta$$. Instead of working on the fractional server $$x(t)$$, our algorithm is defined on the fractional missing server $$y(t):=1-x(t)$$:
 
-> Let $$K=\{0\leq y\leq1,\sum y_{i}=n-k\}$$.
-> Let $$\Phi(y)=\sum_{i=1}^{n}\omega_{i}(y_{i}+\frac{1}{2k})\log(y_{i}+\frac{1}{2k})$$.
-> When the request for the vertex $$\ell$$ arrives
-> > While $$y_{\ell}^{(k)}>0$$.
-> > > $$y^{(k+1)}=\text{argmin}_{y\in K}\eta\cdot e_{\ell}^{\top}y+D_{\Phi}(y;y^{(k)})$$ where $$e_{\ell}$$ is the coordinate vector at $$\ell$$.
+* Let $$K=\{0\leq y\leq1,\sum y_{i}=n-k\}$$.
+* Let $$\Phi(y)=\sum_{i=1}^{n}\omega_{i}(y_{i}+\frac{1}{2k})\log(y_{i}+\frac{1}{2k})$$.
+* When the request for the vertex $$\ell$$ arrives
+*  While $$y_{\ell}^{(k)}>0$$.
+*   $$y^{(k+1)}=\text{argmin}_{y\in K}\eta\cdot e_{\ell}^{\top}y+D_{\Phi}(y;y^{(k)})$$ where $$e_{\ell}$$ is the coordinate vector at $$\ell$$.
 
 In short, when the request arrives at $$\ell$$, we run the mirror descent with the cost $$e_{\ell}$$ until all anti-mass $$y$$ leave the coordinate $$\ell$$.
 
