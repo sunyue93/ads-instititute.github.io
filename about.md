@@ -11,7 +11,7 @@ Algorithmic tools underpin the ways in which modern data science methods glean i
 The goal of UW Institute on Algorithmic Foundations of Data Science (ADSI) is to provide a common language and unifying methods for addressing contemporary data science challenges. At their core, each of the three disciplines of computer science, mathematics, and statistics has rich theories of complexity and robustness. These theories have influenced the design of the available tools that are used to address real world computational problems. Going forward, the project seeks new algorithms and design principles that unify ideas and provide a common language for addressing contemporary data science challenges.
 
 ### Principal Investigators:
-* [Dmitry Drusvyatskiy](http://sites.math.washington.edu/~ddrusv/)
+* [Dmitriy Drusvyatskiy](http://sites.math.washington.edu/~ddrusv/)
 * [Maryam Fazel](https://faculty.washington.edu/mfazel/)
 * [Zaid Harchaoui](http://faculty.washington.edu/zaid/)
 * [Sham Kakade](https://homes.cs.washington.edu/~sham/)
