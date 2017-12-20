@@ -30,11 +30,28 @@ your content
 
 # How to write the content
 Please see the instruction [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
-For latex, inline equation 
+For latex, 
+Input (inline):
+```
+Inline: $$x^2$$
+```
+Output:
+Inline: $$x^2$$
+
+
+Input (display):
 ```
 
-$$
 
+$$
+x^2
 $$
 
 ```
+Output:
+
+$$
+x^2
+$$
+
+Note that the display mode requires one empty line before and after.
