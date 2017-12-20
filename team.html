@@ -19,7 +19,7 @@ tags: contact
             <div class="col-4">
                 <img src="{{ member.pic }}" alt="{{ member.first_name }}" width=200 height=200>
                 <h4><a href="{{ member.url }}">{{ member.first_name }} {{ member.last_name }}</a></h4>
-                {{ member.interest }}
+		    {{ member.interest }}</br></br>
             </div>
         {% endfor %}
     {% endif %}
