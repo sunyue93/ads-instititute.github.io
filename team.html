@@ -17,9 +17,9 @@ tags: contact
         {% assign members = group.members | sort: 'last_name' %}
         {% for member in members %}
             <div class="col-4">
-                <img src="{{ member.pic }}" alt="{{ member.first_name }}" width=200 height=200>
-                <h4><a href="{{ member.url }}">{{ member.first_name }} {{ member.last_name }}</a></h4>
-		    {{ member.interest }}</br></br>
+                <img src="{{ member.pic }}" alt="{{ member.first_name }}" width=200 height=200><br>
+                <a href="{{ member.url }}">{{ member.first_name }} {{ member.last_name }}</a><br>
+		{{ member.interest }}<br><br>
             </div>
         {% endfor %}
     {% endif %}
