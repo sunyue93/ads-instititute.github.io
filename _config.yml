@@ -4,7 +4,7 @@ email:       your_email@example.com
 author:      Alec GT
 description: "Trying to mimic a nice ML blog format."
 baseurl:     "/"
-url:         "https://yintat.github.io"
+url:         "https://ads-instititute.github.io"
 date_format: "%b %-d, %Y"
 header_pages:
  - about.md
