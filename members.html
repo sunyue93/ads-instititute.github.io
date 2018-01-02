@@ -18,7 +18,7 @@ permalink: /members.html
             <div class="col-4">
                 <img src="members/{{ member.pic }}" alt="{{ member.first_name }}" width=200 height=200><br>
                 <a href="{{ member.url }}">{{ member.first_name }} {{ member.last_name }}</a><br>
-		{{ member.interest }}<br><br>
+		<small>{{ member.interest }}</small><br><br>
             </div>
         {% endfor %}
     {% endif %}
