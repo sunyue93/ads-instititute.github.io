@@ -39,8 +39,8 @@
     papers:
       - author: Dmitriy Drusvyatskiy, Henry Wolkowicz
         title: The Many Faces of Degeneracy in Conic Optimization
-        journal: Foundations and Trends in Optimization, Vol. 3, No. 2, pp 77\-170, 2017.
-        url: http://www.nowpublishers.com/article/Details/OPT\-011
+        journal: Foundations and Trends in Optimization, Vol. 3, No. 2, pp 77-170, 2017.
+        url: http://www.nowpublishers.com/article/Details/OPT-011
         highlight: This work surveys the roles of Slater's condition and the facial reduction technique in conic optimization.
       
       - author: Dmitriy Drusvyatskiy
