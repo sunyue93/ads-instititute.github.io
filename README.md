@@ -56,7 +56,8 @@ Note that the display mode requires one empty line before and after. (Otherwise,
       interest: Convex Optimization
       url: http://sites.math.washington.edu/~ddrusv/
 ```
-2. add an image in members\FILENAME
+2. **check the update using http://yaml-online-parser.appspot.com/**
+3. add an image in members\FILENAME
 
 # How to add a new publication
 Add an entry in _data\publications.yml
