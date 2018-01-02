@@ -3,10 +3,10 @@
 - year: 2017
   papers:
     - author: Sébastien Bubeck, Michael B. Cohen, Yin Tat Lee, Yuanzhi Li
-      title: An homotopy method for $$\ell_p$$ regression provably beyond self-concordance and in input-sparsity time
+      title: An homotopy method for $\ell_p$ regression provably beyond self-concordance and in input-sparsity time
       journal: arXiv abs/1711.01328
       url: http://arxiv.org/abs/1711.01328
-      highlight: Solving two long open problems about $$\ell_p$$ ball&#58; <br> 1. The existence of input sparsity time algorithm for lp regression. <br> 2. The inexistence of good self-concordance barrier.
+      highlight: Solving two long open problems about $\ell_p$ ball&#58; <br> 1. The existence of input sparsity time algorithm for lp regression. <br> 2. The inexistence of good self-concordance barrier.
       
     - author: Sébastien Bubeck, Michael B. Cohen, James R. Lee, Yin Tat Lee, Aleksander Madry
       title: k-server via multiscale entropic regularization
