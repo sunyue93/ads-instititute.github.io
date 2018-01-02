@@ -62,7 +62,7 @@ Note that the display mode requires one empty line before and after. (Otherwise,
 # How to add a new publication
 Add an entry in _data\publications.yml
 ```
-    - author: Sbastien Bubeck, Michael B. Cohen, James R. Lee, Yin Tat Lee, Aleksander Madry
+    - author: Sebastien Bubeck, Michael B. Cohen, James R. Lee, Yin Tat Lee, Aleksander Madry
       title: k-server via multiscale entropic regularization
       journal: arXiv abs/1711.01085
       url: http://arxiv.org/abs/1711.01085
