@@ -36,20 +36,48 @@
     - first_name: Sébastien
       last_name: Bubeck
       pic: Sebastien.jpg
-      interest: Convex Optimization
+      interest: Machine Learning, Convex Optimization, Multi-armed Bandits
       url: http://sbubeck.com/
       
     - first_name: Zeyuan
       last_name: Allen-Zhu
       pic: Zeyuan.jpg
-      interest: Convex Optimization
+      interest: Machine Learning, Optimization, Algorithms
       url: http://people.csail.mit.edu/zeyuan/
       
+    - first_name: Lin
+      last_name: Xiao
+      pic: LinXiao.jp
+      interest: Large-scale Optimization, Parallel and Distributed Computing.
+      url: https://www.microsoft.com/en-us/research/people/lixiao/
+      
+    - first_name: Ofer
+      last_name: Dekel
+      pic: OferDekel.jpg
+      interest: Machine Learning, Online Prediction, Algorithm Engineering
+      url: https://www.microsoft.com/en-us/research/people/oferd/
+      
+    - first_name: Michael P.
+      last_name: Friedlander
+      pic: MichaelFriedlander.jpg
+      interest: Optimization
+      url: https://www.cs.ubc.ca/~mpf/index.html
+      
+    - first_name: Mark
+      last_name: Schmidt
+      pic: MarkSchmidt.jpg
+      interest: Machine Learning, Convex Optimization, Graphical Models
+      url: https://www.cs.ubc.ca/~mpf/index.html
 - group_name: Postdocs
   members:
 
 - group_name: Graduate Students
   members:
+    - first_name: Kellie
+      last_name: MacPhee
+      pic: KellieMacPhee.jpg
+      interest: Optimization
+      url: http://sites.math.washington.edu/~kmacphee/
       
 - group_name: Undergraduate Students
   members:
