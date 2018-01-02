@@ -15,7 +15,7 @@ permalink: /members.html
 		</div>
         {% assign members = group.members | sort: 'last_name' %}
         {% for member in members %}
-            <div class="col-4">
+            <div class="col-4 center">
                 <img src="members/{{ member.pic }}" alt="{{ member.first_name }}" width=200 height=200><br>
                 <a href="{{ member.url }}">{{ member.first_name }} {{ member.last_name }}</a><br>
 		<small>{{ member.interest }}</small><br><br>
