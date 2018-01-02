@@ -2,8 +2,14 @@
 
 - year: 2017
   papers:
+    - author: Damek Davis, Dmitriy Drusvyatskiy, Courtney Paquette
+      title: The nonsmooth landscape of phase retrieval
+      journal: arXiv abs/1711.03247
+      url: https://arxiv.org/abs/1711.03247
+      highlight: This paper shows that the standard Polyak subgradient method converges linearly for the phase retrieval problem, when initialized within a constant relative distance of the underlying signal. The second part of the paper analyzes concentration of stationary points of the subsampled objective.
+
     - author: Sébastien Bubeck, Michael B. Cohen, Yin Tat Lee, Yuanzhi Li
-      title: An homotopy method for $\ell_p$ regression provably beyond self-concordance and in input-sparsity time
+      title: An homotopy method for \(\ell_p\) regression provably beyond self-concordance and in input-sparsity time
       journal: arXiv abs/1711.01328
       url: http://arxiv.org/abs/1711.01328
       highlight: Solving two long open problems about $\ell_p$ ball&#58; <br> 1. The existence of input sparsity time algorithm for lp regression. <br> 2. The inexistence of good self-concordance barrier.
@@ -27,3 +33,15 @@
       url: http://arxiv.org/abs/1710.02587
       highlight: Resolving the Paulsen problem - a basic open problem in frame theory with applications from signal processing, communication theory and theoretical computer science.
 
+survey:
+    - author: Dmitriy Drusvyatskiy, Henry Wolkowicz
+      title: The Many Faces of Degeneracy in Conic Optimization
+      journal: Foundations and Trends in Optimization, Vol. 3, No. 2, pp 77-170, 2017.
+      url: http://www.nowpublishers.com/article/Details/OPT-011
+      highlight: This work surveys the roles of Slater's condition and the facial reduction technique in conic optimization.
+
+    - author: Dmitriy Drusvyatskiy
+      title: The proximal point method revisited
+      journal: Survey submitted to SIAG/OPT Views and News
+      url: https://arxiv.org/abs/1712.06038
+      highlight: This short survey revisits the role of the proximal point method in large scale optimization, focusing on three recent examples: a proximally guided stochastic subgradient method, the prox-linear algorithm, and Catalyst generic acceleration.
