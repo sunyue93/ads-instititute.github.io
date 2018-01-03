@@ -18,6 +18,18 @@
 
   - name: Paper
     papers:
+      - author: Hongzhou Lin, Julien Mairal, Zaid Harchaoui
+        title: Catalyst Acceleration for First-order Convex Optimization&#58; from Theory to Practice
+        journal: arXiv abs/1712.05654
+        url: https://arxiv.org/abs/1712.05654
+        highlight: The paper presents the comprehensive theory and practice of the Catalyst acceleration scheme for accelerating gradient-based convex optimization methods.<br> Catalyst applies to a large class of optimization algorithms, including gradient descent, block coordinate descent, incremental algorithms such as SAG, SAGA, SDCA, SVRG, Finito/MISO, and their proximal variants.
+      
+      - author: John Thickstun, Zaid Harchaoui, Dean Foster, Sham M. Kakade
+        title: Invariances and Data Augmentation for Supervised Music Transcription
+        journal: arXiv abs/1711.04845
+        url: https://arxiv.org/abs/1711.04845
+        highlight: This paper presents the winning entry to the 2017 MIREX Multiple Fundamental Frequency Estimation evaluation. The method is based on a translation-invariant convolutional architecture.
+      
       - author: Damek Davis, Dmitriy Drusvyatskiy, Courtney Paquette
         title: The nonsmooth landscape of phase retrieval
         journal: arXiv abs/1711.03247
@@ -48,4 +60,10 @@
         journal: arXiv abs/1710.02587
         url: http://arxiv.org/abs/1710.02587
         highlight: Resolving the Paulsen problem - a basic open problem in frame theory with applications from signal processing, communication theory and theoretical computer science.
+  
+      - author: Hongzhou Lin, Julien Mairal, Zaid Harchaoui
+        title: Catalyst Acceleration for Gradient-Based Non-Convex Optimization
+        journal: arXiv abs/1703.10993
+        url: https://arxiv.org/abs/1703.10993
+        highlight: The paper presents the extension of the Catalyst acceleration scheme for gradient <i>non-convex</i> optimization. When the objective is convex, 4WD-Catalyst enjoys the same properties as the regular Catalyst. When the objective is nonconvex, it achieves the best known convergence rate to stationary points for first-order methods.
   
