@@ -79,6 +79,24 @@
       interest: Optimization
       url: http://sites.math.washington.edu/~kmacphee/
       
+    - first_name: Corinne
+      last_name: Jones
+      pic: CorinneJones.jpg
+      interest: Unsupervised Learning for Signals and Images
+      url: http://www.stat.washington.edu/people/cjones6/
+      
+    - first_name: Alec
+      last_name: Greaves-tunnell
+      pic: AlecGreavestunnell.jpg
+      interest: Optimization
+      url: https://www.stat.washington.edu/personnel/people.php?id=680
+      
+    - first_name: John
+      last_name: Thickstun
+      pic: JohnThickstun.jpg
+      interest: Representation learning, Time Series Models, Structured Prediction, Applications to Music.
+      url: https://homes.cs.washington.edu/~thickstn/
+      
 - group_name: Undergraduate Students
   members:
 
