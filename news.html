@@ -10,6 +10,11 @@ permalink: news.html
     <div class="posts">
       {% for post in site.categories.news %}
         <div class="post py3">
+          {% if post.image %}
+          <a href="{{ post.url | prepend: site.baseurl }}" style="text-decoration: none" class="post-link">
+            <img src="{{ post.image | prepend: site.baseurl }}" style="height:120px;float:right;">
+          </a>
+          {% endif %}
           <a href="{{ post.url | prepend: site.baseurl }}" style="text-decoration: none" class="post-link">{{ post.title }}</a>
           <p class="post-meta">{{ post.date | date: site.date_format }}</p>
           <span class="post-summary">
