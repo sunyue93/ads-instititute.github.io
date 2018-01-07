@@ -7,11 +7,12 @@ baseurl:     "/"
 url:         "http://ads-institute.uw.edu"
 date_format: "%b %-d, %Y"
 header_pages:
- - about.md
- - members.html
+ - index.html
  - news.html
  - publications.html
  - seminars.md
+ - members.html
+ - about.md
  
 # Google services
 google_verification:
