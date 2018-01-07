@@ -8,6 +8,17 @@ layout: default
 {% endif %}
 
 <div class="post-header mb2">
+ {% if post.image %}
+  {% if post.image_url %}
+  <a href="{{ post.image_url }}" style="text-decoration: none" class="post-link">
+  {% endif %}
+    <img src="{{ post.image | prepend: site.baseurl }}" style="height:180px;float:right;">
+  {% if post.image_url %}
+  </a>
+  {% endif %}
+ {% endif %}
+  
+  
   <h1>{{ page.title }}</h1>
   <span class="post-meta">{{ page.date | date: site.date_format }}</span><br>
   {% if page.update_date %}
