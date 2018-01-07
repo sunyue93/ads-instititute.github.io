@@ -8,12 +8,12 @@ layout: default
 {% endif %}
 
 <div class="post-header mb2">
- {% if post.image %}
-  {% if post.image_url %}
-  <a href="{{ post.image_url }}" style="text-decoration: none" class="post-link">
+ {% if page.image %}
+  {% if page.image_url %}
+  <a href="{{ page.image_url }}" style="text-decoration: none" class="post-link">
   {% endif %}
-    <img src="{{ post.image | prepend: site.baseurl }}" style="height:180px;float:right;">
-  {% if post.image_url %}
+    <img src="{{ page.image | prepend: site.baseurl }}" style="height:180px;float:right;">
+  {% if page.image_url %}
   </a>
   {% endif %}
  {% endif %}
