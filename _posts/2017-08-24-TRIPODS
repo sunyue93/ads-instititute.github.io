@@ -1,0 +1,17 @@
+---
+layout:     post
+title:      NSF Tripods Award
+date:       2017-08-24 00:00:00
+summary:    UW faculty win NSF Tripods Award to establish a new institute advancing Algorithms for Data Science
+image:      images/ADSI.png
+categories: news
+---
+A team of University of Washington researchers co-led by [Sham Kakade](https://homes.cs.washington.edu/~sham/), a professor in the Allen School and Department of Statistics, and Electrical Engineering Professor [Maryam Fazel](http://faculty.washington.edu/mfazel/) have secured a [$1.5 million](https://www.nsf.gov/news/news_summ.jsp?cntn_id=242888) award from the National Science Foundation (NSF) to develop new algorithmic tools that will advance the state of the art in data science. They are joined on the project by three co-principal investigators: Mathematics Professor [Dmitriy Drusvyatskiy](https://sites.math.washington.edu/~ddrusv/), Statistics Professor [Zaid Harchaoui](http://faculty.washington.edu/zaid/), and Allen School Professor [Yin Tat Lee](http://yintat.com/).
+
+The funding will support ADSI (Algorithmic Foundations of Data Science Institute) at UW, as part of the agency’s Transdisciplinary Research in Principles of Data Science (TRIPODS) program. [TRIPODS](https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505347) was designed to engage members of the theoretical computer science, mathematics and statistics communities in developing the theoretical foundations of data science to promote data-driven discovery. ADSI aims to produce a common language and set of design principles to guide the development of new algorithmic tools that will automate the process of extracting robust insights from vast troves of data.
+
+Link to the NSF announcement:
+https://www.nsf.gov/news/news_summ.jsp?cntn_id=242888
+
+UW Press release:
+https://news.cs.washington.edu/2017/08/24/uws-sham-kakade-and-maryam-fazel-earn-nsf-tripods-award-to-advance-the-state-of-the-art-in-data-science/
