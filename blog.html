@@ -1,0 +1,39 @@
+---
+layout: default
+title: Blog
+permalink: blog.html
+---
+
+<div class="home">
+{% assign posts_count = site.categories.blog | size %}
+{% if posts_count < 10 %}
+    <div class="posts">
+      {% for post in site.categories.blog %}
+        <div class="post py3">
+          {% if post.image %}
+          <a href="{{ post.url | prepend: site.baseurl }}" style="text-decoration: none" class="post-link">
+            <img src="{{ post.image | prepend: site.baseurl }}" style="height:120px;float:right;">
+          </a>
+          {% endif %}
+          <a href="{{ post.url | prepend: site.baseurl }}" style="text-decoration: none" class="post-link">{{ post.title }}</a>
+          <p class="post-meta">{{ post.date | date: site.date_format }}</p>
+          <span class="post-summary">
+            {% if post.summary %}
+              {{ post.summary }}
+            {% else %}
+              {{ post.excerpt }}
+            {% endif %}
+          </span>
+        </div>
+      {% endfor %}
+    </div>
+{% else %}
+    <ul>
+        {% for post in site.categories.blog %}
+        <a href="{{ site.baseurl }}{{ post.url }}">
+            <li>{{ post.title }} <small>{{ post.date | date_to_string }}</small></li>
+        </a>
+        {% endfor %}
+    </ul>
+{% endif %}
+</div>
