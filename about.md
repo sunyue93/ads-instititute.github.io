@@ -2,7 +2,7 @@
 layout: page
 title: About
 pagetitle: UW Institute on the Algorithmic Foundations of Data Science
-permalink: /about/
+permalink: /about.html
 tags: about
 ---
 ### Mission Statement:
