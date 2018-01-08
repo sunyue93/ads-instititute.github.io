@@ -8,6 +8,7 @@ url:         "http://ads-institute.uw.edu"
 date_format: "%b %-d, %Y"
 header_pages:
  - index.html
+ - blog.html
  - news.html
  - publications.html
  - seminars.md
