@@ -20,7 +20,4 @@ The goal of UW Institute on Algorithmic Foundations of Data Science (ADSI) is to
 ### About the Institute:
 ADSI was founded through a major grant from the NSF TRIPODS (Transdisciplinary Research in Principles of Data Science) program. TRIPODS implements the NSF's vision of *Harnessing the Data Revolution,* one of its ["10 Big Ideas"](https://www.nsf.gov/about/congress/reports/nsf_big_ideas.pdf) for future investment. Beyond its role as a platform for the research detailed in the UW team's [grant proposal](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1740551), the institute will serve as a training center for graduate and postdoctoral scholars and a venue for workshops, bootcamps, and hackathons. 
 
-<center>![NSF Logo](images/NSF.gif)</center>
-
-
-![NSF Logo](images/NSF.gif)
+<center><img scr="images/NSF.gif"></center>
