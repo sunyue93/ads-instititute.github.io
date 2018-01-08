@@ -3,7 +3,7 @@ title:       UW Institute on the Algorithmic Foundations of Data Science
 email:       your_email@example.com
 author:      Alec GT
 description: "Trying to mimic a nice ML blog format."
-baseurl:     ""
+baseurl:     "http://ads-institute.uw.edu/"
 url:         "http://ads-institute.uw.edu"
 date_format: "%b %-d, %Y"
 header_pages:
