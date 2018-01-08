@@ -10,6 +10,7 @@ layout:     post
 title:      TITLE
 date:       2017-12-20 (the date you want to document to be posted)
 summary:    One sentence summary
+categories: blog
 ---
 your content
 ```
