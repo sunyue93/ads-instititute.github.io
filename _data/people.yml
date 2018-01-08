@@ -100,8 +100,20 @@
     - first_name: Swati
       last_name: Padmanabhan
       pic: SwatiPadmanabhan.jpg
-      interest: Convex optimization.
+      interest: Convex Optimization.
       url: https://www.linkedin.com/in/swatipadmanabhan
+      
+    - first_name: Yue
+      last_name: Sun
+      pic: YueSun.jpg
+      interest: Statistical Machine Learning, Non-convex Optimization
+      url: https://www.linkedin.com/in/yue-sun-749492b7/
+      
+    - first_name: Omid
+      last_name: Sadeghi
+      pic: OmidSadeghi.jpg
+      interest: Optimization, Information Theory
+      url: https://www.linkedin.com/in/omid-sadeghi-meibodi-6a0471125/
 - group_name: Undergraduate Students
   members:
 
