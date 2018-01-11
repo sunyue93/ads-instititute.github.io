@@ -24,7 +24,7 @@ reading group, please email <thickstn@cs> (DOT washington DOT edu).
 [Learning Overcomplete HMMs](http://papers.nips.cc/paper/6695-learning-overcomplete-hmms.pdf)
 
 #### Past Quarters
-* Fall 2017
+* [Fall 2017](fall2017.md)
 
 
 
