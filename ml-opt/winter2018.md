@@ -10,7 +10,7 @@
 [Jerry Li](http://www.mit.edu/~jerryzli/) _MIT_  
 [Robust Estimation](https://arxiv.org/abs/1703.00893)
 
-**1/12/2018**
+**1/12/2018**  
 [Yue Sun](https://www.linkedin.com/in/yue-sun-749492b7/) _UW_  
 [Accelerated gradient methods on non-convex loss surfaces](https://arxiv.org/abs/1711.10456)
 
