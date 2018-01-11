@@ -1,4 +1,4 @@
-## Machine Learning and Optimization reading group
+## Machine Learning and Optimization Reading Group
 
 Welcome to the page of the Machine Learning and Optimization Reading Group, Winter 2018!
 For past quarters, looks [below](#past-quarters). If you wish to give present at the 
