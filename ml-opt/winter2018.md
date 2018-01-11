@@ -1,7 +1,8 @@
-### Machine Learning and Optimization reading group
+## Machine Learning and Optimization reading group
 
-Welcome to the page of the Machine Learning and Optimization Reading Group, Winter 2018. 
-For past quarters, looks [below](#past-quarters).
+Welcome to the page of the Machine Learning and Optimization Reading Group, Winter 2018!
+For past quarters, looks [below](#past-quarters). If you wish to give present at the 
+reading group, please email <thickstn@cs> (DOT washington DOT edu).
 
 **Quarter**: Winter 2018  
 **Meeting time**: Fridays at 1:30pm  
