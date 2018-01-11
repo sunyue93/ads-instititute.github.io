@@ -7,9 +7,8 @@ permalink: mlopt.html
 ## ADSI Working Group
 
 Welcome to the page of the ADSI Working Group. If you wish to present at the 
-group, please email <thickstn@cs> (DOT washington DOT edu).
+group, please contact [John Thickstun](https://homes.cs.washington.edu/~thickstn/).
 
-**Quarter**: Winter 2018  
 **Meeting time**: Fridays at 1:30pm  
 **Meeting location**: CSE room 303  
 **Organizers**: [Zaid Harchaoui](http://faculty.washington.edu/zaid/), 
