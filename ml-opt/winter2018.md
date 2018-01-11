@@ -1,3 +1,9 @@
+---
+layout: default
+title: ML-Opt
+permalink: winter2018.html
+---
+
 ## Machine Learning and Optimization Reading Group
 
 Welcome to the page of the Machine Learning and Optimization Reading Group, Winter 2018!
