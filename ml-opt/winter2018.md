@@ -1,13 +1,14 @@
 ### Machine Learning and Optimization reading group
 
-Welcome to the Machine Learning and Optimization Reading Group, Winter 2018. 
+Welcome to the page of the Machine Learning and Optimization Reading Group, Winter 2018. 
 For past quarters, looks [below](#past-quarters).
 
 **Quarter**: Winter 2018  
 **Meeting time**: Fridays at 1:30pm  
 **Meeting location**: CSE room 303  
 **Organizers**: [Zaid Harchaoui](http://faculty.washington.edu/zaid/), 
-[Sham Kakade](https://homes.cs.washington.edu/~sham/), [John Thickstun](https://homes.cs.washington.edu/~thickstn/)
+[Sham Kakade](https://homes.cs.washington.edu/~sham/), [John Thickstun](https://homes.cs.washington.edu/~thickstn/)  
+**Mailing List**: [https://mailman.cs.washington.edu/mailman/listinfo/ml-opt](https://mailman.cs.washington.edu/mailman/listinfo/ml-opt)
 
 **1/5/2018**  
 [Jerry Li](http://www.mit.edu/~jerryzli/), _MIT_  
