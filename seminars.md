@@ -4,9 +4,9 @@ title: Seminars
 permalink: seminars.html
 ---
 
-## [Machine Learning Seminar](mlopt.html)
+## [ADSI Working Group](mlopt.html)
 Every Fri 1:30PM <br>
-Focusing on machine learning
+Focusing on machine learning and mathematical optimization.
 
 ## [Trends in Optimization Seminar](http://blogs.uw.edu/tops/)
 Every Tue 4:00PM <br>
