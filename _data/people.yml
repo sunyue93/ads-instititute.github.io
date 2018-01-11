@@ -102,7 +102,13 @@
       pic: SwatiPadmanabhan.jpg
       interest: Convex Optimization.
       url: https://www.linkedin.com/in/swatipadmanabhan
-      
+    
+    - first_name: Krishna
+      last_name: Pillutla
+      pic: pillutla.jpg
+      interest: Machine Learning, Optimization
+      url: https://homes.cs.washington.edu/~pillutla/
+    
     - first_name: Yue
       last_name: Sun
       pic: YueSun.jpg
