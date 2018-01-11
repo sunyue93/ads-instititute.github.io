@@ -1,7 +1,7 @@
 ---
 layout: default
 title: ML-Opt
-permalink: winter2018.html
+permalink: mlopt-winter2018.html
 ---
 
 ## Machine Learning and Optimization Reading Group
