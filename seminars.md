@@ -4,7 +4,7 @@ title: Seminars
 permalink: seminars.html
 ---
 
-## [Machine Learning Seminar](mlopt-winter2018.md)
+## [Machine Learning Seminar](mlopt-winter2018.html)
 Every Fri 1:30PM <br>
 Focusing on machine learning
 
