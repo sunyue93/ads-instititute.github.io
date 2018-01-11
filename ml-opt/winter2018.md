@@ -19,6 +19,9 @@ reading group, please email <thickstn@cs> (DOT washington DOT edu).
 [Yue Sun](https://www.linkedin.com/in/yue-sun-749492b7/), _UW_  
 [Accelerated gradient methods on non-convex loss surfaces](https://arxiv.org/abs/1711.10456)
 
+**1/19/2018**  
+[Alec Greaves-Tunnell](https://www.stat.washington.edu/person/alexander-greaves-tunnell), _UW_
+[Learning Overcomplete HMMs](http://papers.nips.cc/paper/6695-learning-overcomplete-hmms.pdf)
 
 #### Past Quarters
 * Fall 2017
