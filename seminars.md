@@ -3,7 +3,8 @@ layout: default
 title: Seminars
 permalink: seminars.html
 ---
-## [Machine Learning Seminar](https://docs.google.com/document/d/1JH1d5mScDBzjN7Mp9iplJ4VyxmAI5twjn_rvlMNgwjo/edit)
+
+## [Machine Learning Seminar](ml-opt/winter2018.md)
 Every Fri 1:30PM <br>
 Focusing on machine learning
 
