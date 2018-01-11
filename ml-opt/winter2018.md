@@ -1,7 +1,7 @@
 ---
 layout: default
 title: ML-Opt
-permalink: mlopt-winter2018.html
+permalink: mlopt.html
 ---
 
 ## Machine Learning and Optimization Reading Group
@@ -17,17 +17,19 @@ reading group, please email <thickstn@cs> (DOT washington DOT edu).
 [Sham Kakade](https://homes.cs.washington.edu/~sham/), [John Thickstun](https://homes.cs.washington.edu/~thickstn/)  
 **Mailing List**: [https://mailman.cs.washington.edu/mailman/listinfo/ml-opt](https://mailman.cs.washington.edu/mailman/listinfo/ml-opt)
 
-**1/5/2018**  
-[Jerry Li](http://www.mit.edu/~jerryzli/), _MIT_  
-[Robust Estimation](https://arxiv.org/abs/1703.00893)
+
+**1/19/2018**  
+[Alec Greaves-Tunnell](https://www.stat.washington.edu/person/alexander-greaves-tunnell), _UW_  
+[Learning Overcomplete HMMs](http://papers.nips.cc/paper/6695-learning-overcomplete-hmms.pdf)
 
 **1/12/2018**  
 [Yue Sun](https://www.linkedin.com/in/yue-sun-749492b7/), _UW_  
 [Accelerated gradient methods on non-convex loss surfaces](https://arxiv.org/abs/1711.10456)
 
-**1/19/2018**  
-[Alec Greaves-Tunnell](https://www.stat.washington.edu/person/alexander-greaves-tunnell), _UW_  
-[Learning Overcomplete HMMs](http://papers.nips.cc/paper/6695-learning-overcomplete-hmms.pdf)
+**1/5/2018**  
+[Jerry Li](http://www.mit.edu/~jerryzli/), _MIT_  
+[Robust Estimation](https://arxiv.org/abs/1703.00893)
+
 
 #### Past Quarters
 * [Fall 2017](fall2017.md)
