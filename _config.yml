@@ -13,8 +13,8 @@ header_pages:
  - publications.html
  - seminars.md
  - members.html
- - about.md
  - partners.md
+ - about.md
  
 # Google services
 google_verification:
