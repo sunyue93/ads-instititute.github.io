@@ -132,13 +132,13 @@
       last_name: Jones
       pic: CorinneJones.jpg
       interest: Unsupervised Learning for Signals and Images
-      url: http://www.stat.washington.edu/people/cjones6/
+      url: http://www.stat.washington.edu/~cjones6/
       
     - first_name: Alec
       last_name: Greaves-Tunnell
       pic: AlecGreavestunnell.jpg
       interest: Optimization
-      url: https://www.stat.washington.edu/personnel/people.php?id=680
+      url: http://www.stat.washington.edu/~alecgt/
       
     - first_name: John
       last_name: Thickstun
