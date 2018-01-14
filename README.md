@@ -10,10 +10,15 @@ layout:     post
 title:      TITLE
 date:       2017-12-20 (the date you want to document to be posted)
 summary:    One sentence summary
+author:     Maryam Fazel
+image:      images/NSF.gif
+image_url:  https://arxiv.org/abs/1711.01085
 categories: blog
 ---
 your content
 ```
+
+Note that image_url is the url when you click the image. Both image and image_url are optional.
 
 # How to post a blog
 
@@ -24,6 +29,9 @@ layout:     post
 title:      TITLE
 date:       2017-12-20 (the date you want to document to be posted)
 summary:    One sentence summary
+author:     Maryam Fazel
+image:      images/NSF.gif
+image_url:  https://arxiv.org/abs/1711.01085
 categories: news
 ---
 your content
