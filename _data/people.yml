@@ -68,55 +68,6 @@
       pic: MarkSchmidt.jpg
       interest: Machine Learning, Convex Optimization, Graphical Models
       url: https://www.cs.ubc.ca/~schmidtm/
-  
-    - first_name: Magdalena
-      last_name: Balazinska
-      pic: MagdaBalazinska.jpg
-      interest: Data Management for Data Science, Big Data Systems, Cloud Computing
-      url: https://www.cs.washington.edu/people/faculty/magda 
-      
-    - first_name: Jeff
-      last_name: Bilmes
-      pic: JeffBilmes.jpg
-      interest: Submodular Optimization, Graphical Models
-      url: http://melodi.ee.washington.edu/~bilmes
-      
-    - first_name: Pedro
-      last_name: Domingos
-      pic: PedroDomingos.jpg
-      interest: Machine Learning, Data Mining
-      url: https://homes.cs.washington.edu/~pedrod/
-      
-    - first_name: Mathias
-      last_name: Drton
-      pic: MathiasDrton.jpg
-      interest: Graphical Models, Algebraic Statistics, Model Selection
-      url: http://www.stat.washington.edu/~md5/ 
-      
-    - first_name: Emily
-      last_name: Fox
-      pic: EmilyFox.jpg
-      interest: Large-scale Bayesian Dynamic Modeling and Computations
-      url: https://homes.cs.washington.edu/~ebfox/
- 
-    - first_name: Kevin
-      last_name: Jamieson
-      pic: KevinJamieson.jpg
-      interest: Active Learning
-      url: https://homes.cs.washington.edu/~jamieson
- 
-    - first_name: Sreeram
-      last_name: Kannan
-      pic: SreeramKannan.jpg
-      interest: Information Theory
-      url: http://infotheory.ee.washington.edu
- 
-    - first_name: Marina
-      last_name: Meila
-      pic: MarinaMeila.jpg
-      interest: Machine Learning, Clustering, Geometric Data Analysis, Networks, Preference Modeling
-      url: https://www.stat.washington.edu/mmp
-      
 - group_name: Postdocs
   members:
 
@@ -132,13 +83,13 @@
       last_name: Jones
       pic: CorinneJones.jpg
       interest: Unsupervised Learning for Signals and Images
-      url: http://www.stat.washington.edu/~cjones6/
+      url: http://www.stat.washington.edu/people/cjones6/
       
     - first_name: Alec
-      last_name: Greaves-Tunnell
+      last_name: Greaves-tunnell
       pic: AlecGreavestunnell.jpg
       interest: Optimization
-      url: http://www.stat.washington.edu/~alecgt/
+      url: https://www.stat.washington.edu/personnel/people.php?id=680
       
     - first_name: John
       last_name: Thickstun
