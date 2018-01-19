@@ -17,6 +17,10 @@ group, please contact [John Thickstun](https://homes.cs.washington.edu/~thickstn
 
 ### Quarter: Winter 2018
 
+**1/26/2018**  
+[Ramya Vinayak](http://www.its.caltech.edu/~rkorlaka/), _UW_  
+[Learning Populations of Parameters](https://arxiv.org/pdf/1709.02707.pdf)
+
 **1/19/2018**  
 [Alec Greaves-Tunnell](https://www.stat.washington.edu/person/alexander-greaves-tunnell), _UW_  
 [Learning Overcomplete HMMs](http://papers.nips.cc/paper/6695-learning-overcomplete-hmms.pdf)
