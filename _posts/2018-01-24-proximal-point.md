@@ -4,20 +4,20 @@ title:      The proximal point method revisited
 date:       2018-01-24 17:00:00 -0700
 summary:    Revisiting the proximal point method
 author:     Dmitriy Drusvyatskiy
-image:      mages/prox.png
+image:      images/prox.png
 image_url:  http://sites.math.washington.edu/~ddrusv/
 categories: blog
 ---
 
 This post is organized as follows: 
 parts 1, 2 and 3 are indepdent and depend only the introduction and notation.
-Part 0: [Introduction]{intro} and [Notation]{notation}
-Part 1: [The proximally guided subgradient method for stochastic approximation]{sec1}
-Part 2: [Composite models and the prox-linear algorithm]{sec2}
-Part 3: [Catalyst generic acceleration for regularized Empirical Risk Minimization]{sec3}
+Part 0: [Introduction]{#intro} and [Notation]{#notation}
+Part 1: [The proximally guided subgradient method for stochastic approximation]{#sec1}
+Part 2: [Composite models and the prox-linear algorithm]{#sec2}
+Part 3: [Catalyst generic acceleration for regularized Empirical Risk Minimization]{#sec3}
 
 
-<a name="intro"></a>Introduction
+<a name="intro">Introduction</a>
 ============
 
 The proximal point method is a conceptually simple algorithm for
