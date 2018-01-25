@@ -11,10 +11,14 @@ categories: blog
 
 This post is organized as follows: 
 parts 1, 2 and 3 are indepdent and depend only the introduction and notation.
-Part 0: [Introduction](#introduction) and [Notation]{#notation}
-Part 1: [The proximally guided subgradient method for stochastic approximation]{#sec1}
-Part 2: [Composite models and the prox-linear algorithm]{#sec2}
-Part 3: [Catalyst generic acceleration for regularized Empirical Risk Minimization]{#sec3}
+
+Part 0: [Introduction](#introduction) and [Notation](#notation)
+
+Part 1: [The proximally guided subgradient method for stochastic approximation](#sec1)
+
+Part 2: [Composite models and the prox-linear algorithm](#sec2)
+
+Part 3: [Catalyst generic acceleration for regularized Empirical Risk Minimization](#sec3)
 
 
 Introduction
