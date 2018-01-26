@@ -159,5 +159,5 @@ within a constant relative distance of an optimal solution.
 
 References
 ==========
-See [here](../proximal-point#references).
+See [here](../proximal-point#ref).
 
