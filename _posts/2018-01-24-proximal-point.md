@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      The proximal point method revisited, episode 0: Introduction
+title:      The proximal point method revisited, episode 0. Introduction
 date:       2018-01-24 17:00:00 -0700
-summary:    Revisiting the proximal point method: Introduction and Notation.
+summary:    Revisiting the proximal point method. Introduction and Notation.
 author:     Dmitriy Drusvyatskiy
 image:      images/prox.png
 image_url:  http://sites.math.washington.edu/~ddrusv/
@@ -43,16 +43,18 @@ appropriate iterative method for the subproblems can lead to practical
 and theoretically sound numerical methods. In this blog, I will briefly
 describe three recent examples of this trend:
 
-<!---
--   [Episode 1](2018-01-24-proximal-subgrad.md): a subgradient method for weakly convex stochastic approximation
+
+-   [Episode 1](../proximal-subgrad): a subgradient method for weakly convex stochastic approximation
     problems (Davis and Grimmer 2017),
--   [Episode 2](2018-01-24-prox-linear.md): the prox-linear algorithm for minimizing compositions of convex
+    
+-   [Episode 2](../prox-linear): the prox-linear algorithm for minimizing compositions of convex
     functions and smooth maps (Drusvyatskiy and Lewis 2016; Drusvyatskiy
     and Paquette 2016; Burke and Ferris 1995; Nesterov 2007; Lewis and
     Wright 2015; Cartis, Gould, and Toint 2011),
--   [Episode 3](2018-01-24-catalyst.md): Catalyst generic acceleration schema (Lin, Mairal, and
+    
+-   [Episode 3](../catalyst): Catalyst generic acceleration schema (Lin, Mairal, and
     Harchaoui 2015) for regularized Empirical Risk Minimization.
---->
+
 
 Each epsiode, discussing the examples above, is self-contained and can
 be read independently of the others. A version of this blog series will
