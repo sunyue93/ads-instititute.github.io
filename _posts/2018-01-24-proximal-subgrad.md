@@ -98,4 +98,4 @@ $$y_{j+1}$$.
 
 References
 ==========
-See [here](../proximal-point#references).
+See [here](../proximal-point#ref).
