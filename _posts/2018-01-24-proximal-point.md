@@ -47,14 +47,25 @@ describe three recent examples of this trend:
 -   [Episode 1](../proximal-subgrad): a subgradient method for weakly convex stochastic approximation
     problems (Davis and Grimmer 2017),
     
--   [Episode 2](../prox-linear): the prox-linear algorithm for minimizing compositions of convex
+    
+-   Episode 2 (coming soon!): the prox-linear algorithm for minimizing compositions of convex
     functions and smooth maps (Drusvyatskiy and Lewis 2016; Drusvyatskiy
     and Paquette 2016; Burke and Ferris 1995; Nesterov 2007; Lewis and
     Wright 2015; Cartis, Gould, and Toint 2011),
     
--   [Episode 3](../catalyst): Catalyst generic acceleration schema (Lin, Mairal, and
+-   Episode 3 (coming soon!): Catalyst generic acceleration schema (Lin, Mairal, and
     Harchaoui 2015) for regularized Empirical Risk Minimization.
 
+
+    
+<!---
+-   [Episode 2](../prox-linear): the prox-linear algorithm for minimizing compositions of convex
+    functions and smooth maps (Drusvyatskiy and Lewis 2016; Drusvyatskiy
+    and Paquette 2016; Burke and Ferris 1995; Nesterov 2007; Lewis and
+    Wright 2015; Cartis, Gould, and Toint 2011),
+-   [Episode 3](../catalyst): Catalyst generic acceleration schema (Lin, Mairal, and
+    Harchaoui 2015) for regularized Empirical Risk Minimization.
+--->
 
 Each epsiode, discussing the examples above, is self-contained and can
 be read independently of the others. A version of this blog series will
