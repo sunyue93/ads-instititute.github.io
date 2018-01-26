@@ -1,16 +1,16 @@
 ---
 layout:     post
-title:      Proximal point algorithm revisited, episode 2: the prox-linear algorithm
+title:      Proximal point algorithm revisited, episode 2. The prox-linear algorithm
 date:       2018-01-24 17:02:00 -0700
-summary:    Revisiting the proximal point method: composite models and the prox-linear algorithm.
+summary:    Revisiting the proximal point method. Composite models and the prox-linear algorithm.
 author:     Dmitriy Drusvyatskiy
 image:      images/prox.png
 image_url:  http://sites.math.washington.edu/~ddrusv/
 categories: blog
 ---
 
-This is episode 2 of the three part series that revisits the classical proximal
-point algorithm. See the [first post on this topic](2018-01-24-proximal-point.md) for 
+This is episode 2 of the three-part series that revisits the classical proximal
+point algorithm. See the [first post on this topic](../proximal-point) for 
 introduction and notation.
 
 <a name="sec2"></a>The prox-linear algorithm
@@ -159,5 +159,5 @@ within a constant relative distance of an optimal solution.
 
 References
 ==========
-See [here](2018-01-24-proximal-point.md#references).
+See [here](../proximal-point#references).
 
