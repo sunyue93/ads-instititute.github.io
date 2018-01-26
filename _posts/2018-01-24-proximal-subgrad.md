@@ -9,7 +9,7 @@ image_url:  http://sites.math.washington.edu/~ddrusv/
 categories: blog
 ---
 
-This is episode 1 of the three part series on that revisits the classical proximal
+This is episode 1 of the three part series that revisits the classical proximal
 point algorithm. See the [previous post](2018-01-24-proximal-point.md) for 
 introduction and notation.
 
