@@ -277,7 +277,7 @@ favorable weak convexity constant (e.g., phase retrieval (Duchi and Ruan
 
 
 
-References
+References<a name="ref"></a>
 ==========
 Abbe, E., A.S. Bandeira, A. Bracher, and A. Singer. 2014. "Decoding
 Binary Node Labels from Censored Edge Measurements: Phase Transition and
