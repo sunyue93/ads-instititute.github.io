@@ -10,7 +10,7 @@ categories: blog
 ---
 
 This is episode 2 of the three-part series that revisits the classical proximal
-point algorithm. See the [first post on this topic] (../../24/proximal-point/)
+point algorithm. See the [first post on this topic](../../24/proximal-point/)
 for an introduction and notation.
 
 <a name="sec2"></a>The prox-linear algorithm
