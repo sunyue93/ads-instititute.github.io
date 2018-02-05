@@ -2,7 +2,7 @@
 layout: page
 title: About
 pagetitle: Algorithmic Foundations of Data Science
-permalink: /about.html
+permalink: index.html
 tags: about
 ---
 ADSI is an NSF Tripods Institute at the University of Washington funded by the [NSF grant CCF 1740551](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1740551). It also sits under the umbrella of the broader [eScience Institute](http://escience.washington.edu/) which serves as a portal to data science initiatives at UW. ADSI focuses on developing theoretical and algorithmic tools bridging mathematics, computer science, and statistics for addressing contemporary data science challenges. ADSI contributes to the broader effort of the eScience Institute, which focuses on connecting data science methodology with domain scientists.
