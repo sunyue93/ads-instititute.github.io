@@ -8,13 +8,13 @@ url:         "http://ads-institute.uw.edu"
 date_format: "%b %-d, %Y"
 header_pages:
  - index.html
+ - about.md
  - blog.html
  - news.html
  - publications.html
  - seminars.md
  - members.html
  - partners.md
- - about.md
  
 # Google services
 google_verification:
