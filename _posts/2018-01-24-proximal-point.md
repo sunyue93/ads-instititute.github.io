@@ -54,7 +54,7 @@ describe three recent examples of this trend:
     Wright 2015; Cartis, Gould, and Toint 2011),
     
 -   [Episode 3](../../../02/05/catalyst): Catalyst generic acceleration schema (Lin, Mairal, and
-    Harchaoui 2015) for regularized Empirical Risk Minimization.
+    Harchaoui 2015; 2017) for regularized Empirical Risk Minimization.
 
 
     
@@ -540,7 +540,10 @@ Minimization." *Math. Program.* Springer Berlin Heidelberg, 1--46.
 
 Lin, H., J. Mairal, and Z. Harchaoui. 2015. "A Universal Catalyst for
 First-Order Optimization." In *Advances in Neural Information Processing
-Systems*, 3366--74. [Arxiv](https://arxiv.org/abs/1712.05654)
+Systems*, 3366--74. 
+
+
+Lin, H., J. Mairal, and Z. Harchaoui. "Catalyst Acceleration for First-order Convex Optimization: from Theory to Practice." *arXiv preprint arXiv:1712.05654* (2017).
 
 
 
