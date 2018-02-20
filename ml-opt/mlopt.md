@@ -18,6 +18,15 @@ group, please contact [John Thickstun](https://homes.cs.washington.edu/~thickstn
 ### Quarter: Winter 2018
 
 **1/26/2018**  
+Jennifer Rogers, [Aravind Rajeswaran](http://aravindr93.github.io), _UW_  
+[Adversarial Examples and Robust Optimization](https://arxiv.org/pdf/1706.06083.pdf)
+
+
+**2/16/2018**  
+[Krishna Pillutla](https://homes.cs.washington.edu/~pillutla/), _UW_  
+[Consistency for Structured Prediction](https://arxiv.org/abs/1703.02403)
+
+**1/26/2018**  
 [Ramya Vinayak](http://www.its.caltech.edu/~rkorlaka/), _UW_  
 [Learning Populations of Parameters](https://arxiv.org/pdf/1709.02707.pdf)
 
