@@ -1,4 +1,12 @@
 - year: 2018
+  groups:
+  - name: Papers
+    papers:
+    - author: Damek Davis, Dmitriy Drusvyatskiy
+      title: Stochastic subgradient method converges at the rate \(O(k^{−1/4})\) on weakly convex functions
+      journal: arXiv abs/1802.02988
+      url: https://arxiv.org/abs/1802.02988
+      highlight: This work proves that the proximal stochastic subgradient method converges at a rate \(O(k^{-1/4})\) on weakly convex problems. In particular, it resolves the long-standing open question on the rate of convergence of the proximal stochastic gradient method (without batching) for minimizing a sum of a smooth function and a proximable convex function.
 
 - year: 2017
   groups:
@@ -16,7 +24,7 @@
         url: https://arxiv.org/abs/1712.06038
         highlight: This short survey revisits the role of the proximal point method in large scale optimization, focusing on three recent examples&#58; a proximally guided stochastic subgradient method, the prox-linear algorithm, and Catalyst generic acceleration.
 
-  - name: Paper
+  - name: Papers
     papers:
       - author: Hongzhou Lin, Julien Mairal, Zaid Harchaoui
         title: Catalyst Acceleration for First-order Convex Optimization&#58; from Theory to Practice
