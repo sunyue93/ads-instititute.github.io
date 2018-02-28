@@ -6,6 +6,7 @@
       title: Global Convergence of Policy Gradient Methods for Linearized Control Problems
       journal: arXiv abs/1801.05039
       url: https://arxiv.org/abs/1801.05039
+      highlight: This work shows that (model free) policy gradient methods globally converge to the optimal solution and are efficient with regards to their sample and computational complexities.
       
     - author: Damek Davis, Dmitriy Drusvyatskiy
       title: Stochastic subgradient method converges at the rate \(O(k^{−1/4})\) on weakly convex functions
@@ -17,11 +18,13 @@
       title: Competitive Online Algorithms for Resource Allocation over the Positive Semidefinite Cone
       journal: arXiv abs/1802.01312
       url: https://arxiv.org/abs/1802.01312
+      highlight: Competitive Online Algorithms for Resource Allocation over the Positive Semidefinite Cone
       
     - author: Dmitriy Drusvyatskiy, Maryam Fazel, Scott Roy
       title: An optimal first order method based on optimal quadratic averaging
       journal: arXiv abs/1604.06543
       url: https://arxiv.org/abs/1604.06543
+      highlight: An optimal first order method based on optimal quadratic averaging
       
     - author: Amin Jalali, Maryam Fazel, Lin Xiao
       title: Variational Gram Functions: Convex Analysis and Optimization
