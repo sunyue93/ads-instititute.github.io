@@ -23,6 +23,7 @@
       title: Variational Gram Functions: Convex Analysis and Optimization
       journal: arXiv abs/1507.04734
       url: https://arxiv.org/abs/1507.04734
+      highlight: This paper considers a new class of convex penalty functions, called variational Gram functions (VGFs), that can promote pairwise relations, such as orthogonality, among a set of vectors in a vector spac
 
 - year: 2017
   groups:
