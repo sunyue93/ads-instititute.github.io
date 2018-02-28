@@ -1,10 +1,10 @@
 ---
 layout:     post
-title:      ADSI Summer School Announcement 
+title:      Summer School Announcement 
 date:       2018-02-28 00:00:00
-summary:    Summer school announcement
+summary:    A summer school co-organized by ADSI
 author:     
-image:      
+image:      images/ADSI.png
 image_url:  
 categories: news
 ---
