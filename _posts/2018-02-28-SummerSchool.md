@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      ADSI Summer School Announcement 
-date:       2018-24-02 00:00:00
+date:       2018-28-02 00:00:00
 summary:    Summer school announcement
 author:     
 image:      
