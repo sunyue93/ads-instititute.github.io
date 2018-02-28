@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Home
+title: About
 pagetitle: Algorithmic Foundations of Data Science
 permalink: about.html
 tags: about
