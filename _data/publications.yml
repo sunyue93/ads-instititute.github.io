@@ -6,24 +6,27 @@
       title: Global Convergence of Policy Gradient Methods for Linearized Control Problems
       journal: arXiv abs/1801.05039
       url: https://arxiv.org/abs/1801.05039
+      
     - author: Damek Davis, Dmitriy Drusvyatskiy
       title: Stochastic subgradient method converges at the rate \(O(k^{−1/4})\) on weakly convex functions
       journal: arXiv abs/1802.02988
       url: https://arxiv.org/abs/1802.02988
       highlight: This work proves that the proximal stochastic subgradient method converges at a rate \(O(k^{-1/4})\) on weakly convex problems. In particular, it resolves the long-standing open question on the rate of convergence of the proximal stochastic gradient method (without batching) for minimizing a sum of a smooth function and a proximable convex function.
+      
     - author: Reza Eghbali, James Saunderson, Maryam Fazel
       title: Competitive Online Algorithms for Resource Allocation over the Positive Semidefinite Cone
       journal: arXiv abs/1802.01312
       url: https://arxiv.org/abs/1802.01312
+      
     - author: Dmitriy Drusvyatskiy, Maryam Fazel, Scott Roy
       title: An optimal first order method based on optimal quadratic averaging
       journal: arXiv abs/1604.06543
       url: https://arxiv.org/abs/1604.06543
+      
     - author: Amin Jalali, Maryam Fazel, Lin Xiao
       title: Variational Gram Functions: Convex Analysis and Optimization
       journal: arXiv abs/1507.04734
       url: https://arxiv.org/abs/1507.04734
-      highlight: This paper considers a new class of convex penalty functions, called variational Gram functions (VGFs), that can promote pairwise relations, such as orthogonality, among a set of vectors in a vector spac
 
 - year: 2017
   groups:
