@@ -74,6 +74,12 @@
       pic: MagdaBalazinska.jpg
       interest: Data Management for Data Science, Big Data Systems, Cloud Computing
       url: https://www.cs.washington.edu/people/faculty/magda 
+
+    - first_name: Sasha
+      last_name: Aravkin
+      pic: SashaAravkin.jpg
+      interest: Convex and Variational Analysis, Machine Learning, Robust Statistics and Nonconvex Optimization, Large-scale Inverse Problems, Kalman Filtering and Smoothing
+      url: https://sites.google.com/site/saravkin/
       
     - first_name: Jeff
       last_name: Bilmes
