@@ -59,7 +59,7 @@ describe three recent examples of this trend:
 
     
 <!---
--   [Episode 2](../prox-linear): the prox-linear algorithm for minimizing compositions of convex
+-   [Episode 2](../prox-linear): The prox-linear algorithm for minimizing compositions of convex
     functions and smooth maps (Drusvyatskiy and Lewis 2016; Drusvyatskiy
     and Paquette 2016; Burke and Ferris 1995; Nesterov 2007; Lewis and
     Wright 2015; Cartis, Gould, and Toint 2011),
