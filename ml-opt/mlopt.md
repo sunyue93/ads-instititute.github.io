@@ -15,6 +15,12 @@ group, please contact [John Thickstun](https://homes.cs.washington.edu/~thickstn
 [Sham Kakade](https://homes.cs.washington.edu/~sham/), [John Thickstun](https://homes.cs.washington.edu/~thickstn/)  
 **Mailing List**: [https://mailman.cs.washington.edu/mailman/listinfo/ml-opt](https://mailman.cs.washington.edu/mailman/listinfo/ml-opt)
 
+### Quarter: Spring 2018
+
+**3/30/2018**  
+Chi Jin, _Berkeley_
+Nonconvex optimization: acceleration, saddle points, and shallow minima
+
 ### Quarter: Winter 2018
 
 **1/26/2018**  
