@@ -18,7 +18,7 @@ group, please contact [John Thickstun](https://homes.cs.washington.edu/~thickstn
 ### Quarter: Spring 2018
 
 **3/30/2018**  
-Chi Jin, _Berkeley_
+Chi Jin, _Berkeley_  
 Nonconvex optimization: acceleration, saddle points, and shallow minima
 
 ### Quarter: Winter 2018
