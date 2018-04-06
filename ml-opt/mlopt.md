@@ -17,11 +17,11 @@ group, please contact [John Thickstun](https://homes.cs.washington.edu/~thickstn
 
 ### Quarter: Spring 2018
 
-**4/20/2018**
-Nadav Cohen, __Princeton__  
+**4/20/2018**  
+Nadav Cohen, _Princeton_  
 [Implicit Acceleration by Overparameterization](https://arxiv.org/pdf/1802.06509.pdf)
 
-**4/6/2018**
+**4/6/2018**  
 Dmitriy Drusvyatskiy, _UW_  
 [SGD rate for weakly convex functions](https://arxiv.org/pdf/1802.02988.pdf)
 
