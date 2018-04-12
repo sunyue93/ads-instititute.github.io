@@ -123,6 +123,13 @@
       interest: Machine Learning, Clustering, Geometric Data Analysis, Networks, Preference Modeling
       url: https://www.stat.washington.edu/mmp
       
+    - first_name: Abraham
+      last_name: Flaxman
+      pic: AbrahamFlaxman.jpg
+      interest: Global Health, Health Metrics, Bayesian Computation, Machine Learning. 
+      url: http://www.math.cmu.edu/~adf/
+    
+      
 - group_name: Postdocs
   members:
 
