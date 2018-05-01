@@ -18,6 +18,14 @@ group, please contact [John Thickstun](https://homes.cs.washington.edu/~thickstn
 ### Quarter: Spring 2018
 
 **4/20/2018**  
+Omid Sadeghi, _UW_    
+[Fast Algorithms for Online Stochastic Convex Programming](https://arxiv.org/abs/1410.7596)
+
+**4/27/2018**  
+Rahul Kidambi, _UW_  
+[Evaluating predictions on selectively labeled data](http://www.cs.cornell.edu/home/kleinber/kdd17-selective.pdf)
+
+**4/20/2018**  
 Nadav Cohen, _Princeton_  
 [Implicit Acceleration by Overparameterization](https://arxiv.org/pdf/1802.06509.pdf)
 
