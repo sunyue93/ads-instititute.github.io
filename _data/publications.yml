@@ -2,6 +2,18 @@
   groups:
   - name: Papers
     papers:
+    - author: Damek Davis, Dmitriy Drusvyatskiy
+      title: Stochastic model-based minimization of weakly convex functions
+      journal: arXiv abs/1803.06523
+      url: https://arxiv.org/abs/1803.06523
+      highlight: This work proves a converge rate of O(k^{-1/4}) for a wide class of algorithms that are based on sampling one sided models of the function. Primary examples are the stochastic subgradient method and the stochastic prox-linear algorithm for minimizing a composition of a convex function with a smooth map.
+      
+    - author: Damek Davis, Dmitriy Drusvyatskiy, Sham Kakade, Jason D. Lee
+      title: Stochastic subgradient method converges on tame functions
+      journal: arxiv abs/1804.07795
+      url: https://arxiv.org/abs/1804.07795
+      highlight: We prove that the stochastic subgradient method, on any ``Whitney stratifiable'' locally Lipschitz function, produces limit points that are all first-order stationary. The class of Whitney stratifiable functions is virtually exhaustive in data science, and in particular, includes all popular deep learning architectures.
+   
     - author: Maryam Fazel, Rong Ge, Sham M. Kakade, Mehran Mesbahi
       title: Global Convergence of Policy Gradient Methods for Linearized Control Problems
       journal: arXiv abs/1801.05039
