@@ -4,7 +4,7 @@ title:      Talk Announcement
 date:       2018-05-15 00:00:00
 summary:    Upcoming CORE Seminar talk at UW by Prof. Yurii Nesterov 
 author:     
-image:      images/YuriiNesterov.jpg
+image:      
 image_url:  
 categories: news
 ---
