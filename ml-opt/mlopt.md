@@ -17,8 +17,24 @@ group, please contact [John Thickstun](https://homes.cs.washington.edu/~thickstn
 
 ### Quarter: Spring 2018
 
-**4/20/2018**  
-Omid Sadeghi, _UW_    
+**6/8/2018**  
+Vincent Roulet, _UW_  
+[Grouping Features for Prediction](https://hal.archives-ouvertes.fr/hal-01664964/document)
+
+**6/1/2018**  
+Krishna Pillutla, _UW_  
+[Regularization for Structured Prediction](https://arxiv.org/abs/1605.07588)
+
+**5/25/2018**  
+Fabian Pedregosa, _Berkeley_  
+Asynchronous Stochastic Optimization
+
+**5/11/2018**  
+Mathurin Massias, _Télécom ParisTech_  
+[Celer: dual extrapolation for faster Lasso solvers](https://arxiv.org/abs/1802.07481)
+
+**5/4/2018**  
+Omid Sadeghi, _UW_  
 [Fast Algorithms for Online Stochastic Convex Programming](https://arxiv.org/abs/1410.7596)
 
 **4/27/2018**  
