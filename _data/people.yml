@@ -128,6 +128,12 @@
       pic: AbrahamFlaxman.jpg
       interest: Global Health, Health Metrics, Bayesian Computation, Machine Learning. 
       url: http://www.math.cmu.edu/~adf/
+      
+    - first_name: Ali
+      last_name: Shojaie
+      pic: AliShojaie.jpg
+      interest: Statistical Network Analysis, Statistical Machine Learning for Complex Systems. 
+      url: http://faculty.washington.edu/ashojaie/
     
       
 - group_name: Postdocs
