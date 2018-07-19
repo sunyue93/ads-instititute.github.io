@@ -15,6 +15,12 @@ group, please contact [John Thickstun](https://homes.cs.washington.edu/~thickstn
 [Sham Kakade](https://homes.cs.washington.edu/~sham/), [John Thickstun](https://homes.cs.washington.edu/~thickstn/)  
 **Mailing List**: [https://mailman.cs.washington.edu/mailman/listinfo/ml-opt](https://mailman.cs.washington.edu/mailman/listinfo/ml-opt)
 
+### Quarter: Summer 2018
+
+**7/20/2018**  
+Weihao Kong, _Stanford_  
+Estimating unexplained variance and learnability in the sublinear data regime
+
 ### Quarter: Spring 2018
 
 **6/8/2018**  
