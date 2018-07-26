@@ -33,6 +33,12 @@
 
 - group_name: Affiliates
   members:
+    - first_name: Thomas
+      last_name: Rothvoss
+      pic: ThomasRothvoss.jpg
+      interest: Discrete Optimization
+      url: https://sites.math.washington.edu/~rothvoss/
+  
     - first_name: Sébastien
       last_name: Bubeck
       pic: Sebastien.jpg
