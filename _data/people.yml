@@ -38,6 +38,12 @@
       pic: ThomasRothvoss.jpg
       interest: Discrete Optimization
       url: https://sites.math.washington.edu/~rothvoss/
+      
+    - first_name: James
+      last_name: Lee
+      pic: JamesLee.jpg
+      interest: Algorithms, Metric Embeddings, Spectral Graph Theory, Convex Optimization
+      url: https://homes.cs.washington.edu/~jrl/
   
     - first_name: Sébastien
       last_name: Bubeck
