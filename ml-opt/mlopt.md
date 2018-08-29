@@ -12,7 +12,7 @@ group, please contact [John Thickstun](https://homes.cs.washington.edu/~thickstn
 **Meeting time**: Fridays at 1:30pm  
 **Meeting location**: CSE room 303  
 **Organizers**: [Zaid Harchaoui](http://faculty.washington.edu/zaid/), 
-[Sham Kakade](https://homes.cs.washington.edu/~sham/), [John Thickstun](https://homes.cs.washington.edu/~thickstn/)  
+[Sham Kakade](https://homes.cs.washington.edu/~sham/), [Maryam Fazel](https://faculty.washington.edu/mfazel/), [Kevin Jamieson](https://homes.cs.washington.edu/~jamieson), [John Thickstun](https://homes.cs.washington.edu/~thickstn/)  
 **Mailing List**: [https://mailman.cs.washington.edu/mailman/listinfo/ml-opt](https://mailman.cs.washington.edu/mailman/listinfo/ml-opt)
 
 ### Quarter: Summer 2018
