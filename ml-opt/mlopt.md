@@ -15,6 +15,22 @@ group, please contact [John Thickstun](https://homes.cs.washington.edu/~thickstn
 [Sham Kakade](https://homes.cs.washington.edu/~sham/), [Maryam Fazel](https://faculty.washington.edu/mfazel/), [Kevin Jamieson](https://homes.cs.washington.edu/~jamieson), [John Thickstun](https://homes.cs.washington.edu/~thickstn/)  
 **Mailing List**: [https://mailman.cs.washington.edu/mailman/listinfo/ml-opt](https://mailman.cs.washington.edu/mailman/listinfo/ml-opt)
 
+**11/2/2018**  
+Yue Sun, _UW_  
+[Learning Linear Dynamical Systems](https://arxiv.org/abs/1806.05722)
+
+**10/26/2018**
+Aravind Rajeswaran, _UW_  
+TBA
+
+**10/12/2018**  
+Ashok Vardhan, _UIUC_  
+[Globally Consistent Algorithms for Mixture of Experts](https://arxiv.org/pdf/1802.07417.pdf)
+
+**10/5/2018**  
+Romain Camilleri, _UW_  
+[Imitation Learning and DAGGER](https://arxiv.org/pdf/1011.0686.pdf)
+
 ### Quarter: Summer 2018
 
 **7/20/2018**  
