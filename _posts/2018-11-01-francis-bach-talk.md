@@ -4,7 +4,7 @@ title:      Talk Announcement
 date:       2018-11-01 00:00:00
 summary:    Upcoming talk at UW by Prof. Francis Bach 
 author:     
-image:      images/francis_bach.jpg 
+image:      images/rsz_francis_bach.jpg 
 image_url:  
 categories: news
 ---
