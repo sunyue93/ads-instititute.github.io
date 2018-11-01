@@ -6,7 +6,7 @@ permalink: index.html
 
 <div class="home">
 {% assign posts_count = site.categories.news | size %}
-{% if posts_count < 10 %}
+{% if posts_count < 20 %}
     <div class="posts">
       {% for post in site.categories.news %}
         <div class="post py3">
