@@ -20,4 +20,3 @@ Please see the flyers for the title, abstract, time, and location of the ADSI Di
 
 Please note that registration for the lecture is now closed. 
 
-![Flyer for the talk](http://ads-institute.uw.edu/images/Bach-Flyer-1.png)
