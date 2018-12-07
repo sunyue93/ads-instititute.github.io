@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Yin Tat Lee (coPI) wins the Best Paper Award at NeurIPS 2018
-date:       2018-08-03 
+date:       2018-12-07
 summary:    ADSI coPI, Yin Tat Lee, along with his co-authors, has won the Best Paper Award at the prestigious Machine Learning conference, NeurIPS 2018, for their contribution to distributed optimization. 
 author:     
 image:      members/YinTat.jpg
