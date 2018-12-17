@@ -4,7 +4,7 @@ title:      Training deep structured prediction models at scale
 date:       2018-12-17
 summary:    This post discusses the use of smoothing and accelerated incremental algorithms for faster training of structured prediction models
 author:     Krishna Pillutla, Vincent Roulet, Sham Kakade, Zaid Harchaoui
-image:      images/201812_smoother/viterbi-K.pdf
+image:      images/201812_smoother/viterbi-K.png
 image_url:  https://papers.nips.cc/paper/7726-a-smoother-way-to-train-structured-prediction-models
 categories: blog
 ---
@@ -97,7 +97,7 @@ In the structured prediction setting, entropy smoothing is equivalent to a condi
 [[LMP01](https://dl.acm.org/citation.cfm?id=655813)], which is only tractable for tree structured outputs.
 On the other hand, the sparse outputs of $$\ell_2^2$$ smoothing can be well approximated by picking a small integer $$K$$ and considering the top-$$K$$ highest scoring outputs. This makes $$\ell_2^2$$ smoothing more feasible for tree structured outputs as well as select loopy output structures. See the illustration below for the example of named entity recognition.
 
-![nonsmooth](http://ads-institute.uw.edu/images/201812_smoother/viterbi-max.pdf) | ![l2 smoothing](http://ads-institute.uw.edu/images/201812_smoother/viterbi-K.pdf) | ![entropy](http://ads-institute.uw.edu/images/201812_smoother/viterbi-exp.pdf)  
+![nonsmooth](http://ads-institute.uw.edu/images/201812_smoother/viterbi-max.png) | ![l2 smoothing](http://ads-institute.uw.edu/images/201812_smoother/viterbi-K.png) | ![entropy](http://ads-institute.uw.edu/images/201812_smoother/viterbi-exp.png)  
 :--:|:-------------------------:|:-------------------------:
  *Non-smooth* | *$$\ell_2^2$$ smoothing* | *entropy smoothing*
 
@@ -175,12 +175,12 @@ the PASCAL VOC dataset.
 We first show the performance of the proposed algorithm for the convex case, where the feature maps are predefined.
 Casimir-SVRG-const and Casimir-SVRG-adapt are the two variants with constant and adaptive smoothing respectively.
 
-![ner](http://ads-institute.uw.edu/images/201812_smoother/ner_cvx.pdf)
-![localization](http://ads-institute.uw.edu/images/201812_smoother/loc_cvx.pdf)
+![ner](http://ads-institute.uw.edu/images/201812_smoother/ner_cvx.png)
+![localization](http://ads-institute.uw.edu/images/201812_smoother/loc_cvx.png)
 
 Next, we consider deep structured prediction where the feature map is learnt using a convolutional neural network.
 
-![localization](http://ads-institute.uw.edu/images/201812_smoother/loc_ncvx.pdf)
+![localization](http://ads-institute.uw.edu/images/201812_smoother/loc_ncvx.png)
 
 A *software package* called **Casimir** implementing all these algorithms and more is available 
 [here](https://github.com/krishnap25/casimir)
