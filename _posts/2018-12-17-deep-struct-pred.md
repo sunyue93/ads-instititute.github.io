@@ -29,7 +29,7 @@ $$
 
 The inference problem can be solved in various settings of interest by efficient combinatorial algorithms such as the Viterbi algorithm for named entity recognition.
 
-The goal of the *learning problem* is to find the best parameter $w$ so that inference $$y^*(x ; w)$$ produces the correct output. Given a loss $\ell$ such as the Hamming loss, max-margin structured prediction aims to minimize a surrogate called the structural hinge loss, which is defined for an input-output pair $$(x_i, y_i)$$ as 
+The goal of the *learning problem* is to find the best parameter $$w$$ so that inference $$y^*(x ; w)$$ produces the correct output. Given a loss $$\ell$$ such as the Hamming loss, max-margin structured prediction aims to minimize a surrogate called the structural hinge loss, which is defined for an input-output pair $$(x_i, y_i)$$ as 
 
 $$
 	f_i(w) = \max_{y \in \mathcal{Y}} \psi_i(y; w)  \,,
@@ -57,7 +57,7 @@ Though the above formulation allows one to use tractable first-order information
 
 
 ## Smoothing
-We now wish to smooth the objective function $F$ in order to apply incremental algorithms for smooth optimization. This is not straightforward because each $f_i$ is computed by a discrete inference algorithms.
+We now wish to smooth the objective function $$F$$ in order to apply incremental algorithms for smooth optimization. This is not straightforward because each $$f_i$$ is computed by a discrete inference algorithms.
 
 To smooth $$f_i$$, we first note that it can be written as the composition $$f_i = h \circ g_i$$, where 
 
@@ -99,14 +99,14 @@ On the other hand, the sparse outputs of $$\ell_2^2$$ smoothing can be well appr
 :--:|:-------------------------:|:-------------------------:
  *Non-smooth* | *$$\ell_2^2$$ smoothing* | *entropy smoothing*
 
-Formally, we define inference oracles, namely the max, top-$K$ and exp oracles as first order oracles for the structural hinge loss and its smoothed variants with $$\ell_2^2$$ and entropy smoothing respectively. 
+Formally, we define inference oracles, namely the max, top-$$K$$ and exp oracles as first order oracles for the structural hinge loss and its smoothed variants with $$\ell_2^2$$ and entropy smoothing respectively. 
 This allows us to measure the complexity of optimization algorithms, which we discuss next.
 The table below shows how the smooth inference oracles are implemented for a given max oracle.
 Their computational complexity is given in terms of $$\mathcal{T}$$, the cost of max oracle and $$p$$, the size of each output $$y$$.
 
 **Max oracle** | **Top-$$K$$ oracle** | **Exp oracle** 
  :--:|:-------------------------:|:-------------------------: 
-Max-product |  Top-$K$  max-product, $$\widetilde O(K\mathcal{T})$$ time | Sum-product, $$O(\mathcal{T})$$ time
+Max-product |  Top-$$K$$  max-product, $$\widetilde O(K\mathcal{T})$$ time | Sum-product, $$O(\mathcal{T})$$ time
 Graph cut  |  BMMF, $$O(pK \mathcal{T})$$ time | Intractable 
 Graph matching | BMMF, $$O(K \mathcal{T})$$ time | Intractable
 Branch and bound search | Top-$$K$$ search | Intractable
