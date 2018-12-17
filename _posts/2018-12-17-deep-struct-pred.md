@@ -2,15 +2,13 @@
 layout:     post
 title:      Training Deep Structured Prediction Models at Scale
 date:       2018-12-17
-summary:    
+summary:    This post discusses the use of smoothing and accelerated incremental algorithms for faster training of structured prediction models
 author:     Krishna Pillutla, Vincent Roulet
 image:      images/201812_smoother/viterbi-K.png
 image_url:  https://papers.nips.cc/paper/7726-a-smoother-way-to-train-structured-prediction-models
 categories: blog
 ---
 
-
-# Training deep structured prediction models at scale
 
 This blog post decribes the 
 [recent NeurIPS 2018 paper](https://papers.nips.cc/paper/7726-a-smoother-way-to-train-structured-prediction-models) 
