@@ -13,6 +13,7 @@ categories: blog
 This blog post decribes the 
 [recent NeurIPS 2018 paper](https://papers.nips.cc/paper/7726-a-smoother-way-to-train-structured-prediction-models) 
 and [companion code](https://github.com/krishnap25/casimir) on smooth training of max-margin structured prediction models. Training structured prediction models consists in optimizing a non-smooth objective using an inference combinatorial optimization algorithm. 
+
 We propose a framework called [Casimir](https://github.com/krishnap25/casimir) based on the Catalyst acceleration and infimal-convolution smoothing allowing us to break the non-smoothness barrier and obtain fast incremental algorithms for large-scale training of deep structured prediction models
 
 ## Setting
