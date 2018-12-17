@@ -4,6 +4,10 @@ title: Courses
 permalink: courses.html
 ---
 
+## 2018-2019
+* [CSE 535: Theory of Optimization and Continuous Algorithms](http://yintat.com/teaching/cse535-winter19/)
+
+
 ## 2017-2018
 * [AA/CSE/EE/ME 578, Convex Modeling and Optimization](https://class.ece.uw.edu/578/fazel/index.html)
 * [CSE 446 Machine Learning](https://courses.cs.washington.edu/courses/cse446/18wi/)
@@ -13,3 +17,4 @@ permalink: courses.html
 * [CSE 599 Interplay between Convex Optimization and Geometry](http://yintat.com/teaching/cse599-winter18/)
 * [CSE 599 Competitive analysis via convex optimization](https://homes.cs.washington.edu/~jrl/teaching/cse599I-spring-2018/)
 * [MATH 408 Nonlinear Optimization](http://sites.math.washington.edu/~ddrusv/)
+
