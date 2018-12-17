@@ -14,12 +14,15 @@ This blog post decribes the
 [recent NeurIPS 2018 paper](https://papers.nips.cc/paper/7726-a-smoother-way-to-train-structured-prediction-models) 
 and [companion code](https://github.com/krishnap25/casimir) on smooth training of max-margin structured prediction models. Training structured prediction models consists in optimizing a non-smooth objective using an inference combinatorial optimization algorithm. 
 
-We propose a framework called [Casimir](https://github.com/krishnap25/casimir) based on the Catalyst acceleration and infimal-convolution smoothing allowing us to break the non-smoothness barrier and obtain fast incremental algorithms for large-scale training of deep structured prediction models
+We propose a framework called [Casimir](https://github.com/krishnap25/casimir) based on the Catalyst acceleration and infimal-convolution smoothing allowing us to break the non-smoothness barrier and obtain fast incremental algorithms for large-scale training of deep structured prediction models.
 
 ## Setting
 Structured prediction consists in predicting complex outputs such as sequences, trees or lattices. For instance, named entity recognition can be cast as the task of predicting a sequence of tags, one for each word which identifies the word as a named entity.
 
-![NER](http://ads-institute.uw.edu/images/201812_smoother/ner.png)
+<!-- ![NER](http://ads-institute.uw.edu/images/201812_smoother/ner.png) -->
+<p align="center">
+  <img src="http://ads-institute.uw.edu/images/201812_smoother/ner.png"/>
+</p>
 
 In this example, an output is a chain of tags, where each tag can take values from a dictionary. In general, the set $$\mathcal{Y}$$ of all outputs is finite but too large to enumerate.
 To overcome this difficulty, a *score function* $$\phi(\cdot, \cdot; w)$$, parameterized by $$w$$, is defined to measure the compatibility of the input-output pair $$(x, y)$$ as $$\phi(x,y;w)$$. This score function decomposes over the structure of the outputs (e.g., a chain) so that predictions can be made by an inference procedure which finds
@@ -181,8 +184,7 @@ Next, we consider deep structured prediction where the feature map is learnt usi
 
 ![localization](http://ads-institute.uw.edu/images/201812_smoother/loc_ncvx.png)
 
-A *software package* called **Casimir** implementing all these algorithms and more is available 
-[here](https://github.com/krishnap25/casimir)
-and its documentation can be found [here](https://homes.cs.washington.edu/~pillutla/documentation/casimir/).
+A *software package* called [**Casimir**](https://github.com/krishnap25/casimir) implementing all these algorithms and more is available 
+[here](https://homes.cs.washington.edu/~pillutla/documentation/casimir/).
 
 
