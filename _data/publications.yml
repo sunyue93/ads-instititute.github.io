@@ -7,10 +7,12 @@
       journal: arXiv abs/1810.07590
       url: https://arxiv.org/abs/1810.07590
       
+      
     - author: Vasileios Charisopoulos, Damek Davis, Mateo Diaz, Dmitriy Drusvyatskiy
       title: Composite optimization for robust blind deconvolution
       journal: arxiv abs/1901.01624
       url: https://arxiv.org/abs/1901.01624
+      
 
 - year: 2018
   groups:
