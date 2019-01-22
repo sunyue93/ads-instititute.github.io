@@ -1,3 +1,17 @@
+- year: 2019
+  groups:
+  - name: Papers
+    papers:
+    - author: Damek Davis, Dmitriy Drusvyatskiy
+      title: Uniform graphical convergence of subgradients in nonconvex optimization and learning
+      journal: arXiv abs/1810.07590
+      url: https://arxiv.org/abs/1810.07590
+      
+    - author: Vasileios Charisopoulos, Damek Davis, Mateo Diaz, Dmitriy Drusvyatskiy
+      title: Composite optimization for robust blind deconvolution
+      journal: arxiv abs/1901.01624
+      url: https://arxiv.org/abs/1901.01624
+
 - year: 2018
   groups:
   - name: Papers
