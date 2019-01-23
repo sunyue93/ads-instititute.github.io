@@ -6,13 +6,13 @@
       title: Uniform graphical convergence of subgradients in nonconvex optimization and learning
       journal: arXiv abs/1810.07590
       url: https://arxiv.org/abs/1810.07590
-      highlight:                                                                                                                                                                               
+      highlight: We establish finite-sample bounds on uniform subgradient estimation of weakly convex functions through sampling.                                                                                                                                                                               
       
     - author: Vasileios Charisopoulos, Damek Davis, Mateo Diaz, Dmitriy Drusvyatskiy
       title: Composite optimization for robust blind deconvolution
       journal: arxiv abs/1901.01624
       url: https://arxiv.org/abs/1901.01624
-      highlight:                                                                                                                                                                         
+      highlight: We show that simple algorithms of subgradient and Gauss-Newton type converge rapidly on the blind deconvolution problem, when initialized within constant relative error of the optimal solution. This behavior persists even when up to a half of the measurements are corrupted by gross outliers.                                                                                                                                                                          
       
 - year: 2018
   groups:
