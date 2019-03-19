@@ -146,6 +146,12 @@
       pic: AliShojaie.jpg
       interest: Statistical Network Analysis, Statistical Machine Learning for Complex Systems. 
       url: http://faculty.washington.edu/ashojaie/
+      
+    - first_name: Tom
+      last_name: Trogdon
+      pic: TomTrogdon.jpg
+      interest: Random Matrix Theory, Nmerical Analysis and Spectral Methods
+      url: https://www.math.uci.edu/~ttrogdon/
     
       
 - group_name: Postdocs
