@@ -2,7 +2,7 @@
 layout:     post
 title:      Talk Announcement 
 date:       2018-11-01 00:00:00
-summary:    Upcoming talk at UW by Prof. Francis Bach 
+summary:    Upcoming talk at UW by Prof. Francis Bach.  Francis Bach will be visiting the week of Nov. 5, 2018, as part of the ADSI Distinguished Visiting Faculty Program.
 author:     
 image:      images/francis_bach.jpg 
 image_url:  
