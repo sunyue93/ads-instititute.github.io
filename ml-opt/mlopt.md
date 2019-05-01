@@ -10,10 +10,60 @@ Welcome to the page of the ADSI Working Group. If you wish to present at the
 group, please contact [John Thickstun](https://homes.cs.washington.edu/~thickstn/).
 
 **Meeting time**: Fridays at 1:30pm  
-**Meeting location**: CSE room 303  
+**Meeting location**: Variable (location is announced on the mailing list)
 **Organizers**: [Zaid Harchaoui](http://faculty.washington.edu/zaid/), 
 [Sham Kakade](https://homes.cs.washington.edu/~sham/), [Maryam Fazel](https://faculty.washington.edu/mfazel/), [Kevin Jamieson](https://homes.cs.washington.edu/~jamieson), [John Thickstun](https://homes.cs.washington.edu/~thickstn/)  
 **Mailing List**: [https://mailman.cs.washington.edu/mailman/listinfo/ml-opt](https://mailman.cs.washington.edu/mailman/listinfo/ml-opt)
+
+### Quarter: Spring 2019
+
+**5/3/2019**  
+Vincent Roulet, _UW_  
+Iterative Linearized Control: Stable Algorithms and Complexity Guarantees
+
+**4/26/2019**  
+Ross Boczar, _Berkeley_  
+Learning to Control in Finite Time
+
+**4/19/2019**  
+Greg Yang, _Microsoft_  
+[Batch Normalization Causes Gradient Explosion](https://openreview.net/forum?id=SyMDXnCcF7)
+
+### Quarter: Winter 2019
+
+**3/15/2019**  
+Omid Sadeghi, _UW_  
+[Online convex optimization for cumulative constraints](http://papers.nips.cc/paper/7852-online-convex-optimization-for-cumulative-constraints)
+
+**3/8/2019**  
+Lillian Ratliff, _UW_  
+Learning in Non-Stationary Environments: Near-Optimal Guarantees
+
+**3/1/2019**  
+Corinne Jones, _UW_  
+[Deriving Neural Architectures from Kernels](https://arxiv.org/abs/1705.09037)
+
+**2/22/2019**  
+Ramya Vinayak, _UW_  
+[MLE for Learning Populations of Parameters](https://arxiv.org/abs/1902.04553)
+
+**2/15/2019**  
+Lang Liu, _UW_  
+[Optimization Guarantees for Overparameterized Nets](https://arxiv.org/abs/1810.02054)
+
+**2/1/2019**  
+Krishna Pillutla, _UW_  
+[Localized Structured Prediction](https://arxiv.org/abs/1806.02402)
+
+### Quarter: Fall 2018
+
+**11/30/2018**  
+Gang Cheng, _UW_  
+[Certificates for approximately correct clustering](https://www.stat.washington.edu/mmp/Papers/sdp-kmeans-nips18.pdf)
+
+**11/16/2018**  
+John Thickstun, _UW_  
+[Generative Modeling with Sinkhorn Divergences](https://arxiv.org/abs/1706.00292)
 
 **11/2/2018**  
 Yue Sun, _UW_  
