@@ -4,10 +4,10 @@ title: Courses
 permalink: courses.html
 ---
 ## 2019-2020
-* [MATH 581: High dimensional probability for data science]
-* [AA/CSE/EE/ME 578: Convex Modeling and Optimization]
+* MATH 581: High dimensional probability for data science
+* AA/CSE/EE/ME 578: Convex Modeling and Optimization
 * [AMATH/MATH 516: Convex analysis and Optimization](https://sites.math.washington.edu/~ddrusv/crs/Math_516/homepage.html)
-* [EE 546: Convex Optimization Algorithms ]
+* EE 546: Convex Optimization Algorithms
 
 
 ## 2018-2019
