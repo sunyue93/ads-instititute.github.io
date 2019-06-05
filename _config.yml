@@ -3,7 +3,7 @@ title:       UW Institute on the Algorithmic Foundations of Data Science
 email:       sham@cs.washington.edu
 author:      Sham Kakade
 description: ""
-baseurl:     "http://ads-institute.uw.edu/"
+baseurl:     "http://ads-institute.uw.edu"
 url:         "http://ads-institute.uw.edu"
 date_format: "%b %-d, %Y"
 header_pages:
