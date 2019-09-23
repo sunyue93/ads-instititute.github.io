@@ -17,6 +17,22 @@ group, please contact [John Thickstun](https://homes.cs.washington.edu/~thickstn
 
 ### Quarter: Spring 2019
 
+**6/7/2019**  
+Omid Sadeghi, _UW_  
+[Controlling Discrimination in Online Auctions](http://proceedings.mlr.press/v97/mehrotra19a)
+
+**5/31/2019**  
+John Thickstun, _UW_  
+[Transformer Networks](https://homes.cs.washington.edu/~thickstn/docs/transformers.pdf)
+
+**5/17/2019**  
+Andrew Wagenmaker, _UW_  
+[Temporal Difference Learning](https://arxiv.org/abs/1806.02450)
+
+**5/10/2019**  
+Alec Greaves-Tunnell, _UW_  
+[Long Memory Processes](https://arxiv.org/abs/1904.03834)
+
 **5/3/2019**  
 Vincent Roulet, _UW_  
 Iterative Linearized Control: Stable Algorithms and Complexity Guarantees
