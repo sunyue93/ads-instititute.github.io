@@ -6,14 +6,27 @@ permalink: mlopt.html
 
 ## ADSI Working Group
 
-Welcome to the page of the ADSI Working Group. If you wish to present at the 
+Welcome to the page of the ADSI Working Group. If you wish to present at the
 group, please contact [John Thickstun](https://homes.cs.washington.edu/~thickstn/).
 
 **Meeting time**: Fridays at 1:30pm  
 **Meeting location**: Variable (location is announced on the mailing list)
-**Organizers**: [Zaid Harchaoui](http://faculty.washington.edu/zaid/), 
+**Organizers**: [Zaid Harchaoui](http://faculty.washington.edu/zaid/),
 [Sham Kakade](https://homes.cs.washington.edu/~sham/), [Maryam Fazel](https://faculty.washington.edu/mfazel/), [Kevin Jamieson](https://homes.cs.washington.edu/~jamieson), [John Thickstun](https://homes.cs.washington.edu/~thickstn/)  
 **Mailing List**: [https://mailman.cs.washington.edu/mailman/listinfo/ml-opt](https://mailman.cs.washington.edu/mailman/listinfo/ml-opt)
+
+## Quarter: Fall 2019
+**10/11/2019**
+Zhaoqi Li, _UW_
+[LanczosNet: Multi-Scale Deep Graph Convolutional Networks](https://openreview.net/forum?id=BkedznAqKQ)
+
+**10/4/2019**
+Dmitriy Drusvyatskiy, _UW_
+[Robust Stochastic Optimization with the Proximal Point Method](https://arxiv.org/abs/1907.13307)
+
+**9/27/2019**
+John Thickstun, _UW_
+[Deep Learning with Logged Bandit Feedback](https://www.cs.cornell.edu/people/tj/publications/joachims_etal_18a.pdf)
 
 ### Quarter: Spring 2019
 
@@ -200,8 +213,3 @@ Intelligible Models ([paper1](http://www.cs.cornell.edu/~yinlou/papers/lou-kdd12
 * [Spring 2016](https://docs.google.com/document/d/1zmZbnWqCNjzkRFDTPmYOnCVAT41P7R31qflSX5gPKCM)
 * [Winter 2016](https://docs.google.com/document/d/16rk0WETDL4cLWE8MphyJyJlgt3B7FBW1wc_STy2RgIE)
 * [Fall 2015](https://docs.google.com/document/d/1kBxxzlCAK6guLhR04ceJQoDk2Jw-goHgFzagr2jGkpg)
-
-
-
-
-
