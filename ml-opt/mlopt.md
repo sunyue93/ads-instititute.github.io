@@ -7,7 +7,7 @@ permalink: mlopt.html
 ## ADSI Working Group
 
 Welcome to the page of the ADSI Working Group. If you wish to present at the
-group, please contact [John Thickstun](https://homes.cs.washington.edu/~thickstn/).
+group, please contact [Vincent Roulet](https://vroulet.github.io/).
 
 **Meeting time**: Fridays at 1:30pm  
 **Meeting location**: Variable (location is announced on the mailing list)
