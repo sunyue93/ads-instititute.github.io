@@ -25,7 +25,7 @@ Dmitriy Drusvyatskiy, _UW_
 [Robust Stochastic Optimization with the Proximal Point Method](https://arxiv.org/abs/1907.13307)
 
 **9/27/2019**
-John Thickstun, _UW_
+John Thickstun, _UW_ 
 [Deep Learning with Logged Bandit Feedback](https://www.cs.cornell.edu/people/tj/publications/joachims_etal_18a.pdf)
 
 ### Quarter: Spring 2019
