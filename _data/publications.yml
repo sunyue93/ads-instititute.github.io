@@ -2,6 +2,12 @@
   groups:
   - name: Papers
     papers:
+    - author: Yue Sun, Nicolas Flammarion, Maryam Fazel
+      title: Escaping from saddle points on Riemannian manifolds
+      journal: arXiv abs/1906.07355
+      url: https://arxiv.org/abs/1906.07355
+      highlight: We show that perturbed Riemannian gradient descent on Riemannian manifolds escapes from saddle points and converges to an approximate local minimum.
+      
     - author: Damek Davis, Dmitriy Drusvyatskiy
       title: Uniform graphical convergence of subgradients in nonconvex optimization and learning
       journal: arXiv abs/1810.07590
