@@ -2,7 +2,7 @@
 layout:     post
 title:      Dmitriy Drusvyatskiy receives the INFORMS Young Researcher Prize
 date:       2019-10-11
-summary:    Dmitriy Drusvyatskiy and Damek Davis (Cornell) are the joint recipients of the 2019 INFORMS Optimization Society Prize for Young Researchers for their outstanding paper in optimization
+summary:    Dmitriy Drusvyatskiy and Damek Davis (Cornell) are the joint recipients of the 2019 INFORMS Optimization Society Prize for Young Researchers for their outstanding paper in optimization.
 author:     
 image:      members/Dmitriy.jpg
 image_url:  
