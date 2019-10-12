@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Dmitriy Drusvyatskiy, Zaid Harchaoui and Maryam Fazel are promoted
+title:      Promotion News
 date:       2019-10-11
 summary:    Dmitriy Drusvyatskiy (Math), Zaid Harchaoui (Statistics) have been promoted to Associate Professor and Maryam Fazel (ECE) has been promoted to full Professor.
 author:     
