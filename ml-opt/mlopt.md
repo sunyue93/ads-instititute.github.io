@@ -16,6 +16,10 @@ group, please contact [Vincent Roulet](https://vroulet.github.io/).
 **Mailing List**: [https://mailman.cs.washington.edu/mailman/listinfo/ml-opt](https://mailman.cs.washington.edu/mailman/listinfo/ml-opt)
 
 ## Quarter: Fall 2019
+**10/25/2019**
+Alec Greaves-Tunnell, _UW_  
+[Optimal spectral transportation with applications to music transcription](http://papers.nips.cc/paper/6479-optimal-spectral-transportation-with-application-to-music-transcription.pdf)
+
 **10/11/2019**
 Zhaoqi Li, _UW_  
 [LanczosNet: Multi-Scale Deep Graph Convolutional Networks](https://openreview.net/forum?id=BkedznAqKQ)
