@@ -4,7 +4,7 @@ title:      Talk Announcement
 date:       2019-11-16
 summary:    Upcoming talk at UW by Marco Cuturi. Marco will be visiting on Tuesday November 19th as part of the ADSI Visiting Faculty Program. During his visit, Marco will be giving an ADSI Distinguished Lecture on Computational Optimal Transport.
 author:     
-image:      images/CuturiMarco.png
+image:      images/Cuturi.png
 image_url:  
 categories: news
 ---
