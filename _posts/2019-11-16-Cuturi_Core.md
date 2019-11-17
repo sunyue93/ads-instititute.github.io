@@ -4,7 +4,7 @@ title:      Talk Announcement
 date:       2019-11-16
 summary:    Upcoming talk at UW by Marco Cuturi.
 author:     
-image:      images/Cuturi.jpg
+image:      images/CuturiMarco.png
 image_url:  
 categories: news
 ---
