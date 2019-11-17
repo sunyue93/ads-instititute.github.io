@@ -16,6 +16,18 @@ group, please contact [Vincent Roulet](https://vroulet.github.io/).
 **Mailing List**: [https://mailman.cs.washington.edu/mailman/listinfo/ml-opt](https://mailman.cs.washington.edu/mailman/listinfo/ml-opt)
 
 ## Quarter: Fall 2019
+**11/15/2019**
+Mitas Ray, _UW_  
+[Welfare maximization with production costs: A primal dual approach](https://www.sciencedirect.com/science/article/pii/S0899825618300344?via%3Dihub)
+
+**11/8/2019**
+Yue Sun, _UW_  
+[Escaping saddle on manifold](https://arxiv.org/abs/1906.07355)
+
+**11/1/2019**
+Aravind Rajeswaran, _UW_  
+Meta Learning with Implicit Gradients. [FTML](https://arxiv.org/abs/1902.08438) [iMAML](https://arxiv.org/abs/1909.04630)
+
 **10/25/2019**
 Alec Greaves-Tunnell, _UW_  
 [Optimal spectral transportation with applications to music transcription](http://papers.nips.cc/paper/6479-optimal-spectral-transportation-with-application-to-music-transcription.pdf)
