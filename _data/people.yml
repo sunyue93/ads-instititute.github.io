@@ -216,7 +216,7 @@
       last_name: Sadeghi
       pic: OmidSadeghi.jpg
       interest: Optimization, Online Learning
-      url: https://www.linkedin.com/in/omid-sadeghi-meibodi-6a0471125/
+      url: http://students.washington.edu/omids/
 
     - first_name: Haotian
       last_name: Jiang
@@ -229,6 +229,12 @@
       pic: RuoqiShen.jpg
       interest: Algorithms, Optimization
       url: 
+      
+    - first_name: Mitas
+      last_name: Ray
+      pic: OmidSadeghi.jpg
+      interest: Online optimization, Game theory
+      url:
 
 - group_name: Undergraduate Students
   members:
