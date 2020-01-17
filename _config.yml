@@ -9,13 +9,12 @@ date_format: "%b %-d, %Y"
 header_pages:
  - index.html
  - about.md
- - blog.html
  - news.html
  - publications.html
  - seminars.md
  - courses.md
  - members.html
- - partners.md
+ - blog.html
  
 # Google services
 google_verification:
