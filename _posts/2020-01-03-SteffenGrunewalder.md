@@ -2,15 +2,16 @@
 layout:     post
 title:      Talk Announcement
 date:       2020-1-3
-summary:    Upcoming talk at UW by Steffen Grunewalder.
+summary:    Upcoming talk at UW by Steffen Grunewalder. Steffen will be visiting From Jan 21 to Feb 1 as part of the ADSI Visiting Faculty Program. During his visit, Steffen will be giving a ML lunch seminar on Thurs Jan 23rd at noon.
 author:     
 image:      images/SteffenGrunewalder.png
 image_url:  
 categories: news
 ---
 
-Steffen will be visiting From Jan 21 to Feb 1 as part of the ADSI Visiting Faculty Program. During his visit, Steffen will be giving a ML lunch seminar on Thurs Jan 23rd at noon.
+Date: Thurs Jan 23rd at noon
 
+Location: TBA
 
 Title:
 Oblivious data for kernel methods
