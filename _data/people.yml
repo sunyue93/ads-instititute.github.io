@@ -238,6 +238,11 @@
 
 - group_name: Undergraduate Students
   members:
-
+    - first_name: Guanghao
+      last_name: Ye
+      pic: Guanghao.jpg
+      interest: Convex Optimization
+      url:
+      
 - group_name: Alumni
   members:
