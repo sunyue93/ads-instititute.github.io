@@ -4,6 +4,7 @@ title: Courses
 permalink: courses.html
 ---
 ## 2019-2020
+* [CSE 535: Theory of Optimization and Continuous Algorithms](http://yintat.com/teaching/cse535-winter20/)
 * MATH 581: High dimensional probability for data science
 * AMATH/MATH 516: Convex analysis and Optimization
 * EE 546: Convex Optimization Algorithms
