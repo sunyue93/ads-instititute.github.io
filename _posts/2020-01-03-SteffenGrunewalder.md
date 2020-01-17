@@ -9,9 +9,7 @@ image_url:
 categories: news
 ---
 
-Date: Thurs Jan 23rd at noon
-
-Location: TBA
+Steffen will be visiting From Jan 21 to Feb 1 as part of the ADSI Visiting Faculty Program. He will be sitting in the ADSI faculty office, room CSE2 315. During his visit, Steffen will be giving a ML lunch seminar on Thurs Jan 23rd at noon. The details are follows:
 
 Title:
 Oblivious data for kernel methods
