@@ -27,7 +27,7 @@
       highlight: We establish finite-sample bounds on uniform subgradient estimation of weakly convex functions through sampling.                                                                                                                                                                               
       
     - author: Vasileios Charisopoulos, Yudong Chen, Damek Davis, Mateo Diaz, Lijun Ding, Dmitriy Drusvyatskiy
-      title: Low-rank matrix recovery with composite optimization: good conditioning and rapid convergence
+      title: Low-rank matrix recovery with composite optimization":" good conditioning and rapid convergence
       journal: arxiv abs/1904.10020
       url: https://arxiv.org/abs/1904.10020
       highlight: We show that for a variety of low-rank matrix recovery tasks, nonsmooth problem formulations are automatically well-conditioned, thereby endowing standard numerical methods with optimal sample and computation efficiency guarantees.                                                                                                                                                                   
