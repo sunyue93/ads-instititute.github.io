@@ -43,13 +43,25 @@
       journal: arXiv abs/1810.07590
       url: https://arxiv.org/abs/1810.07590
       highlight: We establish finite-sample bounds on uniform subgradient estimation of weakly convex functions through sampling.                                                                                                                                                                               
-      
+    
+    - author: Jingjing Bu, Afshin Mesbahi, Maryam Fazel, Mehran Mesbahi
+      title: LQR through the Lens of First Order Methods: Discrete-time Case
+      journal: arxiv abs/1907.08921
+      url: https://arxiv.org/abs/1907.08921
+      highlight: We consider the Linear Quadratic Regulator (LQR) problem, a central problem in control theory, as optimizing a nonconvex cost function over control policies and charaterize its analytical properties (smoothness, coerciveness, quadratic growth) which help obtain stepsize criteria for gradient descent and natural gradient descent for linear convergence to global optima. An optimal stepsize for the quasi-Newton iteration is also proposed that recovers Hewer's algorithm.
+  
     
     
 - year: 2018
   groups:
   - name: Papers
     papers:
+     - author: Jelena Diakonikolas, Maryam Fazel, Lorenzo Orecchia
+      title: Width-Independence Beyond Linear Objectives: Distributed Fair Packing and Covering Algorithms, 
+      journal: arxiv abs/1808.02517
+      url: https://arxiv.org/abs/1808.02517
+      highlight: Fair allocation of resources has been broadly studied in political science, economic theory, operations research, and networking. We consider general α-fair resource allocation problems, i.e., maximizing an α-fair utility function under packing constraints, and give an improved distributed, width-independent algorithm, whose running time depends only polylogarithmically on the size of entries in the constraint matrix.
+    
     - author: Damek Davis, Dmitriy Drusvyatskiy
       title: Stochastic model-based minimization of weakly convex functions
       journal: arXiv abs/1803.06523
