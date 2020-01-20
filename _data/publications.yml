@@ -15,7 +15,7 @@
       highlight: We develop a generic procedure that augments a wide class of stochastic algorithms with high confidence guarantees at an overhead cost that is only logarithmic in the confidence level and polylogarithmic in the condition number. We discuss consequences for both streaming (online) algorithms and offline algorithms based on empirical risk minimization.
     
     - author: Vasileios Charisopoulos, Yudong Chen, Damek Davis, Mateo Díaz, Lijun Ding, Dmitriy Drusvyatskiy
-      title: Low-rank matrix recovery with composite optimization : good conditioning and rapid convergence
+      title: Low-rank matrix recovery with composite optimization ":" good conditioning and rapid convergence
       journal: arxiv abs/1904.10020
       url: https://arxiv.org/abs/1904.10020
       highlight: We show that for a variety of low-rank matrix recovery tasks, nonsmooth problem formulations are automatically well-conditioned, thereby endowing standard numerical methods with optimal sample and computation efficiency guarantees.                                                                                                                                                                   
