@@ -106,7 +106,7 @@
 
 - year: 2017
   groups:
-  - name: Survey
+  - name: Papers
     papers:
       - author: Dmitriy Drusvyatskiy, Henry Wolkowicz
         title: The Many Faces of Degeneracy in Conic Optimization
@@ -120,8 +120,6 @@
         url: https://arxiv.org/abs/1712.06038
         highlight: This short survey revisits the role of the proximal point method in large scale optimization, focusing on three recent examples&#58; a proximally guided stochastic subgradient method, the prox-linear algorithm, and Catalyst generic acceleration.
 
-  - name: Papers
-    papers:
       - author: Hongzhou Lin, Julien Mairal, Zaid Harchaoui
         title: Catalyst Acceleration for First-order Convex Optimization&#58; from Theory to Practice
         journal: arXiv abs/1712.05654
