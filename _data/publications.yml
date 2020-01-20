@@ -54,7 +54,7 @@
   groups:
   - name: Papers
     papers:
-     - author: Jelena Diakonikolas, Maryam Fazel, Lorenzo Orecchia
+    - author: Jelena Diakonikolas, Maryam Fazel, Lorenzo Orecchia
       title: "Width-Independence Beyond Linear Objectives: Distributed Fair Packing and Covering Algorithms" 
       journal: arxiv abs/1808.02517
       url: https://arxiv.org/abs/1808.02517
